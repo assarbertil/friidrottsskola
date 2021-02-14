@@ -1,33 +1,41 @@
+const colors = require("tailwindcss/colors");
+const { fontFamily } = require("tailwindcss/defaultTheme");
+
 module.exports = {
-  purge: ['./components/**/*.js', './pages/**/*.js'],
+  purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
+  darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      colors: {
-        'accent-1': '#FAFAFA',
-        'accent-2': '#EAEAEA',
-        'accent-7': '#333',
-        success: '#0070f3',
-        cyan: '#79FFE1',
+      backgroundImage: theme => ({
+        fri: "url('/assets/img/fri21-bg.jpg')",
+      }),
+      fontFamily: {
+        sans: ["Inter", ...fontFamily.sans],
       },
-      spacing: {
-        28: '7rem',
-      },
-      letterSpacing: {
-        tighter: '-.04em',
-      },
-      lineHeight: {
-        tight: 1.2,
-      },
-      fontSize: {
-        '5xl': '2.5rem',
-        '6xl': '2.75rem',
-        '7xl': '4.5rem',
-        '8xl': '6.25rem',
-      },
-      boxShadow: {
-        sm: '0 5px 10px rgba(0, 0, 0, 0.12)',
-        md: '0 8px 30px rgba(0, 0, 0, 0.12)',
-      },
+      typography: theme => ({
+        DEFAULT: {
+          css: {
+            color: "white",
+          },
+        },
+      }),
+    },
+    colors: {
+      // Build your palette here
+      transparent: "transparent",
+      current: "currentColor",
+      gray: colors.trueGray,
+      white: "white",
+      black: "black",
+      red: colors.red,
+      blue: colors.lightBlue,
+      yellow: colors.amber,
+      green: colors.green,
+      semitransparent: "#000000d0",
     },
   },
-}
+  variants: {
+    extend: {},
+  },
+  plugins: [require("@tailwindcss/typography")],
+};

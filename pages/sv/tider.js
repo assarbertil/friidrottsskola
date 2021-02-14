@@ -1,4 +1,4 @@
-import Layout from "../../components/layout";
+import Layout from "../../components/Layout";
 import Head from "next/head";
 import Link from "next/link";
 
@@ -30,6 +30,15 @@ export default function tider() {
                 </tr>
                 <tr>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>Vecka 25</td>
+                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>
+                    Måndag - Fredag
+                  </td>
+                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>
+                    09:30-15:00
+                  </td>
+                </tr>
+                <tr>
+                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Vecka 26</td>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>
                     Måndag - Fredag
                   </td>
@@ -79,6 +88,8 @@ export default function tider() {
             <Link href="/sv/priser">
               <a>Se priser för barnpassningen HÄR </a>
             </Link>
+            <hr className="border-b-2 border-white" />
+
             <h3>Visättra</h3>
             <table>
               <tbody>
@@ -111,7 +122,9 @@ export default function tider() {
                 </tr>
               </tbody>
             </table>
-            <h3>Visättra</h3>
+            <hr className="border-b-2 border-white" />
+
+            <h3>Vårby</h3>
             <table>
               <tbody>
                 <tr>

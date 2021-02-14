@@ -1,13 +1,12 @@
 import { useState } from "react";
 
-import Layout from "../../components/layout";
+import Layout from "../../components/Layout";
 import Head from "next/head";
 import Modal from "react-modal";
 
 import Title from "../../components/Title";
 import MainText from "../../components/MainText";
 import Ingar from "../../components/Ingar";
-import Anmal from "../../components/Anmal";
 import Container from "../../components/Container";
 
 const customStyles = {

@@ -1,12 +1,11 @@
 import { useState } from "react";
 
-import Layout from "../../components/layout";
+import Layout from "../../components/Layout";
 import Head from "next/head";
 import Modal from "react-modal";
 
 import Title from "../../components/Title";
 import MainText from "../../components/MainText";
-import Anmal from "../../components/Anmal";
 import Container from "../../components/Container";
 
 const customStyles = {
@@ -91,8 +90,8 @@ export default function Kallbrink() {
               alla deltagare.
             </p>
 
-            <h2>Friidrottsveckor </h2>
-            <h3>Ungdommar födda 2008-2010</h3>
+            <h2>Friidrottsveckor</h2>
+            <h3>Ungdomar födda 2008-2010</h3>
             <p>
               Under samtliga veckor, 25, 26, 27, 32 och 33, kommer vi i år att
               erbjuda ungdomar som tränar friidrott i HAIS (eller annan

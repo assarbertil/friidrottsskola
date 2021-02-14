@@ -1,4 +1,4 @@
-import Layout from "../../components/layout";
+import Layout from "../../components/Layout";
 import Head from "next/head";
 
 import Title from "../../components/Title";
@@ -78,6 +78,8 @@ export default function priser() {
                 </tr>
               </tbody>
             </table>
+            <hr className="border-b-2 border-white" />
+
             <h2>Visättra</h2>
             <p>Alla veckor (25, 26 och 33): 0kr</p>
             <p>
@@ -92,6 +94,7 @@ export default function priser() {
                 friidrottsskolan@huddingeais.se
               </a>
             </p>
+            <hr className="border-b-2 border-white" />
             <h2>Vårby</h2>
             <p>Alla veckor (25, 26 och 33): 0kr</p>
             <p>
@@ -100,7 +103,9 @@ export default function priser() {
               som bor i Vårby.
             </p>
             <p>
-              För att anmäla ett barn som INTE bor i Vårby kontaktar ni oss på 
+              För att anmäla ett barn som
+              <span className="text-red-600"> INTE</span>
+               bor i Vårby kontaktar ni oss på 
               <a href="mailto:friidrottsskolan@huddingeais.se">
                 friidrottsskolan@huddingeais.se
               </a>
@@ -126,6 +131,8 @@ export default function priser() {
                 </tr>
               </tbody>
             </table>
+            <hr className="border-b-2 border-white" />
+
             <Ingar />
           </MainText>
         </main>

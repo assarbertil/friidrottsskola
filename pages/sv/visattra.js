@@ -1,13 +1,12 @@
 import { useState } from "react";
 
-import Layout from "../../components/layout";
+import Layout from "../../components/Layout";
 import Head from "next/head";
 import Modal from "react-modal";
 
 import Title from "../../components/Title";
 import MainText from "../../components/MainText";
 import Ingar from "../../components/Ingar";
-import Anmal from "../../components/Anmal";
 import Container from "../../components/Container";
 
 const customStyles = {
@@ -93,7 +92,6 @@ export default function Källbrink() {
             </ul>
           </ol>
         </Modal>
-
         <main>
           <MainText>
             <a
@@ -103,13 +101,16 @@ export default function Källbrink() {
               rel="noopener noreferrer">
               Visättra sportcenter
             </a>
-            <h3>HAIS friidrottsskola 2007-2015</h3>
+            <h2>HAIS friidrottsskola</h2>
+            <h3>Ungdomar födda 2008-2015</h3>
             <p>
               Friidrottsskolan är ett läger på dagtid för barn och ungdomar
               födda år 2007-2015. Under veckorna 25, 26 och 33 i sommar får
               barnen prova på friidrottens olika grenar, till exempel längdhopp,
               höjdhopp, 60m och kulstötning.
             </p>
+            <h2>Friidrottsveckor</h2>
+            <h3>Ungdomar födda 2008-2010</h3>
             <p>
               Huddinge AIS Friidrottsskola i Visättra är gratis för alla barn
               som bor i Visättra och Flemingsberg. Detta har gjorts möjligt med

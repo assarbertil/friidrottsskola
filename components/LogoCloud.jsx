@@ -3,36 +3,36 @@ export default function LogoCloud() {
 
   return (
     <div className={styles.container}>
-      <div class="parent bg-gray-200 py-6">
-        <a href="https://www.svenskfast.se/" class="div1">
+      <div className="py-6 bg-gray-200 parent">
+        <a href="https://www.svenskfast.se/" className="div1">
           <img
             src="/logos/svensk-fastighetsformedling_logo.svg"
             alt="Svensk fastighets förmdeling"
             class="cloud-logo"
           />
         </a>
-        <a href="https://www.huddingecentrum.se/" class="div2">
+        <a href="https://www.huddingecentrum.se/" className="div2">
           <img
             src="/logos/huddinge.png"
             alt="Huddinge centrum"
-            class="cloud-logo"
+            className="cloud-logo"
           />
         </a>
         <a href="https://www.huge.se/" class="div3">
-          <img src="/logos/huge.svg" alt="Huge" class="cloud-logo" />
+          <img src="/logos/huge.svg" alt="Huge" className="cloud-logo" />
         </a>
-        <a href="https://www.lannasport.se/" class="div4">
+        <a href="https://www.lannasport.se/" className="div4">
           <img
             src="/logos/LannaSport-Logo.svg"
             alt="Länna Sport"
-            class="cloud-logo"
+            className="cloud-logo"
           />
         </a>
-        <a href="https://www.svenskakyrkan.se/" class="div5">
+        <a href="https://www.svenskakyrkan.se/" className="div5">
           <img
             src="/logos/svenska kyrkan.svg"
             alt="Svenska kyrkan"
-            class="cloud-logo"
+            className="cloud-logo"
           />
         </a>
       </div>

@@ -20,29 +20,31 @@ export default function tider() {
             <table>
               <tbody>
                 <tr>
-                  <td>Vecka 25</td>
-                  <td>Måndag - Torsdag</td>
-                  <td>09:30-15:00</td>
+                  <td style={{ paddingTop: 0 }}>Vecka 25</td>
+                  <td style={{ paddingTop: 0 }}>Måndag - Torsdag</td>
+                  <td style={{ paddingTop: 0 }}>09:30-15:00</td>
                 </tr>
                 <tr>
-                  <td>Vecka 25</td>
-                  <td>Måndag - Fredag</td>
-                  <td>09:30-15:00</td>
+                  <td style={{ paddingTop: 0 }}>Vecka 25</td>
+                  <td style={{ paddingTop: 0 }}>Måndag - Fredag</td>
+                  <td style={{ paddingTop: 0 }}>09:30-15:00</td>
                 </tr>
                 <tr>
-                  <td>Vecka 27</td>
-                  <td>Måndag - Fredag</td>
-                  <td>09:30-15:00</td>
+                  <td style={{ paddingTop: 0 }}>Vecka 27</td>
+                  <td style={{ paddingTop: 0 }}>Måndag - Fredag</td>
+                  <td style={{ paddingTop: 0 }}>09:30-15:00</td>
                 </tr>
                 <tr>
-                  <td>Vecka 32</td>
-                  <td>Måndag - Fredag</td>
-                  <td>09:30-15:00</td>
+                  <td style={{ paddingTop: 0 }}>Vecka 32</td>
+                  <td style={{ paddingTop: 0 }}>Måndag - Fredag</td>
+                  <td style={{ paddingTop: 0 }}>09:30-15:00</td>
                 </tr>
                 <tr>
-                  <td>Vecka 33</td>
-                  <td>Måndag - Fredag</td>
-                  <td>09:30-15:00</td>
+                  <td style={{ paddingTop: 0 }}>Vecka 33</td>
+                  <td style={{ paddingTop: 0 }}>Måndag - Fredag</td>
+                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>
+                    09:30-15:00
+                  </td>
                 </tr>
               </tbody>
             </table>
@@ -63,19 +65,19 @@ export default function tider() {
             <table>
               <tbody>
                 <tr>
-                  <td>Vecka 25</td>
-                  <td>Måndag - Torsdag</td>
-                  <td>09:00-15:00</td>
+                  <td style={{ padding: 0 }}>Vecka 25</td>
+                  <td style={{ padding: 0 }}>Måndag - Torsdag</td>
+                  <td style={{ padding: 0 }}>09:00-15:00</td>
                 </tr>
                 <tr>
-                  <td>Vecka 25</td>
-                  <td>Måndag - Fredag</td>
-                  <td>09:00-15:00</td>
+                  <td style={{ padding: 0 }}>Vecka 25</td>
+                  <td style={{ padding: 0 }}>Måndag - Fredag</td>
+                  <td style={{ padding: 0 }}>09:00-15:00</td>
                 </tr>
                 <tr>
-                  <td>Vecka 33</td>
-                  <td>Måndag - Fredag</td>
-                  <td>09:00-15:00</td>
+                  <td style={{ padding: 0 }}>Vecka 33</td>
+                  <td style={{ padding: 0 }}>Måndag - Fredag</td>
+                  <td style={{ padding: 0 }}>09:00-15:00</td>
                 </tr>
               </tbody>
             </table>
@@ -83,19 +85,19 @@ export default function tider() {
             <table>
               <tbody>
                 <tr>
-                  <td>Vecka 26</td>
-                  <td>Måndag - Fredag</td>
-                  <td>09:00-15:00</td>
+                  <td style={{ padding: 0 }}>Vecka 26</td>
+                  <td style={{ padding: 0 }}>Måndag - Fredag</td>
+                  <td style={{ padding: 0 }}>09:00-15:00</td>
                 </tr>
                 <tr>
-                  <td>Vecka 27</td>
-                  <td>Måndag - Fredag</td>
-                  <td>09:00-15:00</td>
+                  <td style={{ padding: 0 }}>Vecka 27</td>
+                  <td style={{ padding: 0 }}>Måndag - Fredag</td>
+                  <td style={{ padding: 0 }}>09:00-15:00</td>
                 </tr>
                 <tr>
-                  <td>Vecka 33</td>
-                  <td>Måndag - Fredag</td>
-                  <td>09:00-15:00</td>
+                  <td style={{ padding: 0 }}>Vecka 33</td>
+                  <td style={{ padding: 0 }}>Måndag - Fredag</td>
+                  <td style={{ padding: 0 }}>09:00-15:00</td>
                 </tr>
               </tbody>
             </table>

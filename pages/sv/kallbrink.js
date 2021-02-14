@@ -1,12 +1,38 @@
+import { useState } from "react";
+
 import Layout from "../../components/layout";
 import Head from "next/head";
+import Modal from "react-modal";
 
 import Title from "../../components/Title";
 import MainText from "../../components/MainText";
 import Anmal from "../../components/Anmal";
 import Container from "../../components/Container";
 
+const customStyles = {
+  content: {
+    top: "50%",
+    left: "50%",
+    right: "auto",
+    bottom: "auto",
+    marginRight: "-50%",
+    transform: "translate(-50%, -50%)",
+    background: "#111",
+    color: "#fff",
+    padding: "2rem",
+  },
+};
+
 export default function Kallbrink() {
+  var subtitle;
+  const [modalIsOpen, setIsOpen] = useState(false);
+  function openModal() {
+    setIsOpen(true);
+  }
+  function closeModal() {
+    setIsOpen(false);
+  }
+
   return (
     <Layout>
       <Head>

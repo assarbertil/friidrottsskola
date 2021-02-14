@@ -1,5 +1,4 @@
 import Layout from "../components/Layout";
-import { getAllPosts } from "../lib/api";
 import Head from "next/head";
 import Link from "next/link";
 
@@ -9,9 +8,7 @@ import Hero from "../components/Hero";
 import MainText from "../components/MainText";
 import LogoCloud from "../components/LogoCloud";
 
-export default function Index({ allPosts }) {
-  const heroPost = allPosts[0];
-  const morePosts = allPosts.slice(1);
+export default function Index({}) {
   return (
     <Layout>
       <Head>
@@ -91,19 +88,4 @@ export default function Index({ allPosts }) {
       </Container>
     </Layout>
   );
-}
-
-export async function getStaticProps() {
-  const allPosts = getAllPosts([
-    "title",
-    "date",
-    "slug",
-    "author",
-    "coverImage",
-    "excerpt",
-  ]);
-
-  return {
-    props: { allPosts },
-  };
 }

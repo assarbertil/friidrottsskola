@@ -88,8 +88,9 @@ export default function priser() {
               som bor i Visättra och Flemingsberg.
             </p>
             <p>
-              För att anmäla ett barn som INTE bor i Visättra kontaktar ni oss
-              på 
+              För att anmäla ett barn{" "}
+              <span className="text-red-600"> INTE</span> bor i Visättra
+              kontaktar ni oss på 
               <a href="mailto:friidrottsskolan@huddingeais.se">
                 friidrottsskolan@huddingeais.se
               </a>

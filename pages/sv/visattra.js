@@ -18,6 +18,9 @@ const customStyles = {
     bottom: "auto",
     marginRight: "-50%",
     transform: "translate(-50%, -50%)",
+    background: "#111",
+    color: "#fff",
+    padding: "2rem",
   },
 };
 
@@ -42,7 +45,7 @@ export default function Källbrink() {
           <button
             onClick={openModal}
             className="flex-none w-full px-10 py-4 text-center bg-green-600 rounded-lg md:w-64 md:flex-none hover:bg-green-700 text-gray-50">
-            Open Modal
+            Anmälan
           </button>
         </div>
         <Modal
@@ -52,17 +55,15 @@ export default function Källbrink() {
           contentLabel="Anmälan"
           className="">
           <div className="flex justify-between mb-4">
-            <h2
-              className="mr-24 text-lg"
-              ref={_subtitle => (subtitle = _subtitle)}>
+            <h2 className="text-xl" ref={_subtitle => (subtitle = _subtitle)}>
               Anmälan till Visättra
             </h2>
             <button className="underline" onClick={closeModal}>
               Stäng
             </button>
           </div>
-          <h3>Anmälan kan göras på två sätt</h3>
-          <ol className="my-0 list-decimal">
+          <h3>Anmälan kan göras på två sätt:</h3>
+          <ol className="mx-6 my-0 list-decimal">
             <li>
               Genom att fylla i och lämna in den anmälningslapp barnet fått i
               skolan till sin mentor.
@@ -104,7 +105,7 @@ export default function Källbrink() {
             </a>
             <h3>HAIS friidrottsskola 2007-2015</h3>
             <p>
-              Friidrottsskolan är ett läger på dagtid för barn och ungdommar
+              Friidrottsskolan är ett läger på dagtid för barn och ungdomar
               födda år 2007-2015. Under veckorna 25, 26 och 33 i sommar får
               barnen prova på friidrottens olika grenar, till exempel längdhopp,
               höjdhopp, 60m och kulstötning.

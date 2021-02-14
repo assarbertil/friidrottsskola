@@ -14,7 +14,29 @@ export default function Kallbrink() {
       </Head>
       <Container>
         <Title title="Källbrink" />
-        <Anmal />
+        <div className="flex flex-col my-6 text-xl md:space-x-12 md:flex-row">
+          <button
+            onClick={openModal}
+            className="flex-none w-full px-10 py-4 text-center bg-green-600 rounded-lg md:w-64 md:flex-none hover:bg-green-700 text-gray-50">
+            Anmälan
+          </button>
+        </div>
+        <Modal
+          isOpen={modalIsOpen}
+          onRequestClose={closeModal}
+          style={customStyles}
+          contentLabel="Anmälan"
+          className="">
+          <div className="flex justify-between mb-4">
+            <h2 className="text-xl" ref={_subtitle => (subtitle = _subtitle)}>
+              Anmälan till Källbrink
+            </h2>
+            <button className="underline" onClick={closeModal}>
+              Stäng
+            </button>
+          </div>
+          <h3>Kommer snart på Huddinge AIS hemsida</h3>
+        </Modal>
         <main>
           <MainText>
             <a
@@ -25,7 +47,7 @@ export default function Kallbrink() {
               Källbrinks IP
             </a>
             <h2>HAIS friidrottsskola</h2>
-            <h3>Ungdommar födda 2008-2015</h3>
+            <h3>Ungdomar födda 2008-2015</h3>
             <p>
               Friidrottsskolan på Källbrink arrangeras vecka 25, 26, 27, 32 och
               33, dagarna är mellan klockan 09.30-15.00. Det finns möjlighet

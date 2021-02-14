@@ -8,7 +8,7 @@ export default function LogoCloud() {
           <img
             src="/logos/svensk-fastighetsformedling_logo.svg"
             alt="Svensk fastighets förmdeling"
-            class="cloud-logo"
+            className="cloud-logo"
           />
         </a>
         <a href="https://www.huddingecentrum.se/" className="div2">
@@ -18,7 +18,7 @@ export default function LogoCloud() {
             className="cloud-logo"
           />
         </a>
-        <a href="https://www.huge.se/" class="div3">
+        <a href="https://www.huge.se/" className="div3">
           <img src="/logos/huge.svg" alt="Huge" className="cloud-logo" />
         </a>
         <a href="https://www.lannasport.se/" className="div4">

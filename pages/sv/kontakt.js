@@ -17,11 +17,17 @@ export default function kontakt() {
           <MainText>
             <h2>Huddinge AIS Friidrott</h2>
             <p>Emelie Schlyter</p>
-            <a href="mailto:Emelie@huddingeais.se">Emelie@huddingeais.se</a>
-            <a href="mailto:friidrottsskolan@huddingeais.se">
+            <p>Projektledare Huddinge AIS friidrottsskola</p>
+            <a
+              className="block text-blue-500 underline"
+              href="mailto:Emelie@huddingeais.se">
+              Emelie@huddingeais.se
+            </a>
+            <a
+              className="block text-blue-500 underline"
+              href="mailto:friidrottsskolan@huddingeais.se">
               friidrottsskolan@huddingeais.se
             </a>
-            <p>Projektledare Huddinge AIS friidrottsskola</p>
           </MainText>
         </main>
       </Container>

@@ -18,6 +18,7 @@ export default function Källbrink() {
         <Anmal />
         <main>
           <MainText>
+            <p className="underline">Platsinformation kommer</p>
             <h3>HAIS friidrottsskola 2008-2015</h3>
             <p>
               Friidrottsskolan är ett läger på dagtid för barn och ungdomar

@@ -61,11 +61,6 @@ export default function Index({ allPosts }) {
           </div>
 
           <div className="flex flex-col justify-center mt-20 text-xl md:space-x-12 md:flex-row">
-            <Link href="/sv/anmal">
-              <a className="flex-none w-full px-10 py-4 mb-4 text-center bg-green-600 rounded-lg md:w-64 md:flex-none hover:bg-green-700 text-gray-50">
-                Anmälan
-              </a>
-            </Link>
             <Link href="/sv/jobba">
               <a className="flex-none w-full px-10 py-4 mb-4 text-center bg-green-600 rounded-lg md:w-64 md:flex-none hover:bg-green-700 text-gray-50">
                 Jobba på lägret

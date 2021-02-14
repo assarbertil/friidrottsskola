@@ -4,7 +4,9 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export"
+
   },
   "dependencies": {
     "@headlessui/react": "^0.3.1",
@@ -16,6 +18,7 @@
     "postcss": "^8.2.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-modal": "^3.12.1",
     "remark": "13.0.0",
     "remark-html": "13.0.1",
     "tailwindcss": "^2.0.2"

@@ -21,24 +21,24 @@ export default function priser() {
             <table>
               <tbody>
                 <tr>
-                  <td>Vecka 25 (mån-tor): </td>
-                  <td>1245 kr</td>
+                  <td style={{ padding: 0 }}>Vecka 25 (mån-tor): </td>
+                  <td style={{ padding: 0 }}>1245 kr</td>
                 </tr>
                 <tr>
-                  <td>Vecka 26 (mån-fre):  </td>
-                  <td>1445 kr</td>
+                  <td style={{ padding: 0 }}>Vecka 26 (mån-fre):  </td>
+                  <td style={{ padding: 0 }}>1445 kr</td>
                 </tr>
                 <tr>
-                  <td>Vecka 27 (mån-fre):  </td>
-                  <td>1445 kr</td>
+                  <td style={{ padding: 0 }}>Vecka 27 (mån-fre):  </td>
+                  <td style={{ padding: 0 }}>1445 kr</td>
                 </tr>
                 <tr>
-                  <td>Vecka 32 (mån-fre):  </td>
-                  <td>1445 kr</td>
+                  <td style={{ padding: 0 }}>Vecka 32 (mån-fre):  </td>
+                  <td style={{ padding: 0 }}>1445 kr</td>
                 </tr>
                 <tr>
-                  <td>Vecka 33 (mån-fre):  </td>
-                  <td>1445 kr</td>
+                  <td style={{ padding: 0 }}>Vecka 33 (mån-fre):  </td>
+                  <td style={{ padding: 0 }}>1445 kr</td>
                 </tr>
               </tbody>
             </table>
@@ -61,20 +61,20 @@ export default function priser() {
             <table>
               <tbody>
                 <tr>
-                  <td>Vecka 25: </td>
-                  <td>550 kr</td>
+                  <td style={{ padding: 0 }}>Vecka 25: </td>
+                  <td style={{ padding: 0 }}>550 kr</td>
                 </tr>
                 <tr>
-                  <td>Vecka 26:  </td>
-                  <td>685 kr</td>
+                  <td style={{ padding: 0 }}>Vecka 26:  </td>
+                  <td style={{ padding: 0 }}> 685 kr</td>
                 </tr>
                 <tr>
-                  <td>Vecka 33:  </td>
-                  <td>685 kr</td>
+                  <td style={{ padding: 0 }}>Vecka 33:  </td>
+                  <td style={{ padding: 0 }}>685 kr</td>
                 </tr>
                 <tr>
-                  <td>Barnpassning:  </td>
-                  <td>350 kr</td>
+                  <td style={{ padding: 0 }}>Barnpassning:  </td>
+                  <td style={{ padding: 0 }}>350 kr</td>
                 </tr>
               </tbody>
             </table>
@@ -113,16 +113,16 @@ export default function priser() {
             <table>
               <tbody>
                 <tr>
-                  <td>Vecka 26 (mån-fre):</td>
-                  <td>1045 kr</td>
+                  <td style={{ padding: 0 }}>Vecka 26 (mån-fre):</td>
+                  <td style={{ padding: 0 }}>1045 kr</td>
                 </tr>
                 <tr>
-                  <td>Vecka 27 (mån-fre):</td>
-                  <td>1045 kr</td>
+                  <td style={{ padding: 0 }}>Vecka 27 (mån-fre):</td>
+                  <td style={{ padding: 0 }}>1045 kr</td>
                 </tr>
                 <tr>
-                  <td>Vecka 33 (mån-fre):</td>
-                  <td>1045 kr</td>
+                  <td style={{ padding: 0 }}>Vecka 33 (mån-fre):</td>
+                  <td style={{ padding: 0 }}>1045 kr</td>
                 </tr>
               </tbody>
             </table>

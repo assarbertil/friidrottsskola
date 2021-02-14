@@ -43,8 +43,9 @@ export default function jobba() {
               den du tilldelades vecka 14. Har du några frågor om jobbet på
               friidrottsskolan hör gärna av dig!
             </p>
-            <p>Emelie Schlyter</p>
-            <a href="mailto:Emelie@huddingeais.se">Emelie@huddingeais.se</a>
+            <a href="mailto:friidrottsskolan@huddingeais.se">
+              friidrottsskolan@huddingeais.se
+            </a>
           </MainText>
         </main>
       </Container>

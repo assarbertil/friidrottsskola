@@ -29,15 +29,6 @@ export default function tider() {
                   </td>
                 </tr>
                 <tr>
-                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Vecka 25</td>
-                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>
-                    Måndag - Fredag
-                  </td>
-                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>
-                    09:30-15:00
-                  </td>
-                </tr>
-                <tr>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>Vecka 26</td>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>
                     Måndag - Fredag
@@ -103,7 +94,7 @@ export default function tider() {
                   </td>
                 </tr>
                 <tr>
-                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Vecka 25</td>
+                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Vecka 26</td>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>
                     Måndag - Fredag
                   </td>

@@ -109,13 +109,6 @@ export default function Källbrink() {
               barnen prova på friidrottens olika grenar, till exempel längdhopp,
               höjdhopp, 60m och kulstötning.
             </p>
-            <h2>Friidrottsveckor</h2>
-            <h3>Ungdomar födda 2008-2010</h3>
-            <p>
-              Huddinge AIS Friidrottsskola i Visättra är gratis för alla barn
-              som bor i Visättra och Flemingsberg. Detta har gjorts möjligt med
-              ett stort stöd från Huge bostäder och Huddinge kommun.
-            </p>
 
             <Ingar />
           </MainText>

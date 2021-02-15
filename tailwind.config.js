@@ -37,7 +37,7 @@ module.exports = {
       blue: colors.lightBlue,
       yellow: colors.amber,
       green: colors.green,
-      semitransparent: "#000000d0",
+      semitransparent: "#ffffffd0",
     },
   },
   variants: {

@@ -19,6 +19,7 @@ export default function jobba() {
               Vill du jobba på sommarens mest lärorika och roliga sommarjobb?
             </h2>
             <a
+              target="_blank"
               href="https://forms.office.com/Pages/ResponsePage.aspx?id=6SZn45RNd0q-YdRZf0rNAtrClEBS15hMgjv-2iCSrWdUODQ4UDQ2MDVBWTI3TlRTM1gwTkI4NFQ4OC4u"
               className="flex-none w-full px-10 py-4 text-center bg-green-600 rounded-lg md:w-64 md:flex-none hover:bg-green-700 text-gray-50">
               Ansök till ledare

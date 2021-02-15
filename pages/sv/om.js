@@ -7,7 +7,7 @@ import Container from "../../components/Container";
 
 export default function om() {
   return (
-    <Layout>
+    <Layout nav="English">
       <Head>
         <title>Om lägret</title>
       </Head>

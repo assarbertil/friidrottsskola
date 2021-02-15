@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Transition } from "@headlessui/react";
 import Link from "next/link";
 
-export default function Nav() {
+export default function Nav(props) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -19,7 +19,7 @@ export default function Nav() {
             <button
               onClick={() => setIsOpen(!isOpen)}
               type="button"
-              className="inline-flex items-center justify-center p-2 text-gray-400 rounded-md hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+              className="inline-flex items-center justify-center p-2 text-gray-900 rounded-md hover:text-gray-800 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
               <span className="sr-only">Open menu</span>
               {/* Heroicon name: outline/menu */}
               <svg
@@ -53,7 +53,7 @@ export default function Nav() {
               <a className="text-xl text-black">Kontakt</a>
             </Link>
             <Link href="/en">
-              <a className="text-xl text-black">English</a>
+              <a className="text-xl text-black">{props.nav}</a>
             </Link>
           </nav>
         </div>
@@ -128,7 +128,7 @@ export default function Nav() {
                   <Link href="/en">
                     <a className="flex items-center p-3 -m-3 rounded-md hover:bg-gray-50">
                       <span className="ml-3 text-base font-medium text-gray-900">
-                        English
+                        {props.nav}
                       </span>
                     </a>
                   </Link>

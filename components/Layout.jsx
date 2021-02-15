@@ -1,13 +1,13 @@
 import Nav from "./Nav";
 import Footer from "./Footer";
 
-export default function Layout({ preview, children }) {
+export default function Layout(props) {
   return (
     <div className="font-sans text-black bg-center bg-no-repeat bg-cover bg-fri ">
       <div className="bg-semitransparent">
-        <Nav />
+        <Nav nav={props.nav} />
         <div className="min-h-screen ">
-          <main>{children}</main>
+          <main>{props.children}</main>
         </div>
         <Footer />
       </div>

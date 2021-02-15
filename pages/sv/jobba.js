@@ -7,7 +7,7 @@ import Container from "../../components/Container";
 
 export default function jobba() {
   return (
-    <Layout>
+    <Layout lang="English">
       <Head>
         <title>Jobba på lägret</title>
       </Head>

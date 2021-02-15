@@ -3,12 +3,12 @@ export default function Ingar() {
     <>
       <h2>I friidrottsskolan ingår:</h2>
       <ul className="ml-4 list-disc">
-        <li style={{ padding: 0 }}>
+        <li style={{ margin: 0 }}>
           Lunch och ett mellanmål på förmiddag och ett på eftermiddag
         </li>
-        <li style={{ padding: 0 }}>Vattenflaska, T-shirt, gympapåse</li>
-        <li style={{ padding: 0 }}>Medalj och diplom till alla deltagare</li>
-        <li style={{ padding: 0 }}>Gratis startplats i Huddingeloppet</li>
+        <li style={{ margin: 0 }}>Vattenflaska, T-shirt, gympapåse</li>
+        <li style={{ margin: 0 }}>Medalj och diplom till alla deltagare</li>
+        <li style={{ margin: 0 }}>Gratis startplats i Huddingeloppet</li>
       </ul>
     </>
   );

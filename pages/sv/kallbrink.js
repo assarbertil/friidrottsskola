@@ -90,8 +90,6 @@ export default function Kallbrink() {
               kommer mer att likna ett träningsläger där vi fokuserar på
               friidrottens grenar på en djupare, och mer individuell, nivå.
             </p>
-            <hr className="border-b-2 border-black" />
-
             <p>
               Deltagande i detta tillägg är INTE resultat – eller
               prestationsbaserat. Våra ledare är där för att hjälpa varje

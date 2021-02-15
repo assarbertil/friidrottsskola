@@ -8,7 +8,7 @@ import Hero from "../components/Hero";
 import MainText from "../components/MainText";
 import LogoCloud from "../components/LogoCloud";
 
-export default function Index({}) {
+export default function Index() {
   return (
     <Layout>
       <Head>

@@ -18,7 +18,9 @@ export default function Index() {
         <Hero />
         <main>
           <MainText>
-            <h2>Vill du vara med på sommarens roligaste äventyr?</h2>
+            <h2 className="text-center">
+              Vill du vara med på sommarens roligaste äventyr?
+            </h2>
             <p>
               Huddinge AIS arrangerar 2021 vår populära friidrottsskola under
               fem veckor av sommarlovet. Friidrottsskolan 2020 var en stor succé

@@ -42,11 +42,11 @@ export default function Källbrink() {
       <Container>
         <Title title="Visättra" />
         <div className="flex flex-col my-6 text-xl md:space-x-12 md:flex-row">
-          <button
-            onClick={openModal}
+          <a
+            href="#anmal"
             className="flex-none w-full px-10 py-4 text-center bg-green-600 rounded-lg md:w-64 md:flex-none hover:bg-green-700 text-gray-50">
             Anmälan
-          </button>
+          </a>
         </div>
         <Modal
           isOpen={modalIsOpen}

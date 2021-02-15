@@ -35,4 +35,4 @@ yarn-error.log*
 
 # Added by Tomas
 *.docx\#
-
+*.tar

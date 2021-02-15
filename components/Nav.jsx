@@ -41,29 +41,19 @@ export default function Nav() {
 
           <nav className="hidden space-x-10 md:flex">
             <Link href="/sv/priser">
-              <a className="text-xl text-yellow-300 hover:text-yellow-500">
-                Priser &amp; info
-              </a>
+              <a className="text-xl text-black">Priser &amp; info</a>
             </Link>
             <Link href="/sv/tider">
-              <a className="text-xl text-yellow-300 hover:text-yellow-500">
-                Tider
-              </a>
+              <a className="text-xl text-black">Tider</a>
             </Link>
             <Link href="/sv/om">
-              <a className="text-xl text-yellow-300 hover:text-yellow-500">
-                Om lägret
-              </a>
+              <a className="text-xl text-black">Om lägret</a>
             </Link>
             <Link href="/sv/kontakt">
-              <a className="text-xl text-yellow-300 hover:text-yellow-500">
-                Kontakt
-              </a>
+              <a className="text-xl text-black">Kontakt</a>
             </Link>
             <Link href="/en">
-              <a className="text-xl text-yellow-300 hover:text-yellow-500">
-                English
-              </a>
+              <a className="text-xl text-black">English</a>
             </Link>
           </nav>
         </div>

@@ -79,7 +79,7 @@ export default function tider() {
             <Link href="/sv/priser/">
               <a>Se priser för barnpassningen HÄR </a>
             </Link>
-            <hr className="border-b-2 border-white" />
+            <hr className="border-b-2 border-black" />
 
             <h3>Visättra</h3>
             <table>
@@ -113,7 +113,7 @@ export default function tider() {
                 </tr>
               </tbody>
             </table>
-            <hr className="border-b-2 border-white" />
+            <hr className="border-b-2 border-black" />
 
             <h3>Vårby</h3>
             <table>

@@ -41,17 +41,17 @@ export default function Index() {
 
           <div className="flex flex-col justify-center mt-20 text-xl md:space-x-12 md:flex-row">
             <Link href="/sv/kallbrink">
-              <a className="flex-none w-full px-10 py-4 mb-4 text-center text-gray-900 bg-yellow-400 rounded-lg md:w-64 md:flex-none hover:bg-yellow-500">
+              <a className="flex-none w-full px-10 py-4 mb-4 text-center text-gray-900 bg-yellow-400 rounded-lg shadow-lg md:w-64 md:flex-none hover:bg-yellow-500">
                 Källbrink
               </a>
             </Link>
             <Link href="/sv/visattra">
-              <a className="flex-none w-full px-10 py-4 mb-4 text-center text-gray-900 bg-yellow-400 rounded-lg md:w-64 md:flex-none hover:bg-yellow-500">
+              <a className="flex-none w-full px-10 py-4 mb-4 text-center text-gray-900 bg-yellow-400 rounded-lg shadow-lg md:w-64 md:flex-none hover:bg-yellow-500">
                 Visättra
               </a>
             </Link>
             <Link href="/sv/varby">
-              <a className="flex-none w-full px-10 py-4 mb-4 text-center text-gray-900 bg-yellow-400 rounded-lg md:w-64 md:flex-none hover:bg-yellow-500">
+              <a className="flex-none w-full px-10 py-4 mb-4 text-center text-gray-900 bg-yellow-400 rounded-lg shadow-lg md:w-64 md:flex-none hover:bg-yellow-500">
                 Vårby
               </a>
             </Link>
@@ -59,7 +59,7 @@ export default function Index() {
 
           <div className="flex flex-col justify-center mt-20 text-xl md:space-x-12 md:flex-row">
             <Link href="/sv/jobba">
-              <a className="flex-none w-full px-10 py-4 mb-4 text-center bg-green-600 rounded-lg md:w-64 md:flex-none hover:bg-green-700 text-gray-50">
+              <a className="flex-none w-full px-10 py-4 mb-4 text-center bg-green-600 rounded-lg shadow-lg md:w-64 md:flex-none hover:bg-green-700 text-gray-50">
                 Jobba på lägret
               </a>
             </Link>

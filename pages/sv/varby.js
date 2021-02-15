@@ -43,8 +43,7 @@ export default function Källbrink() {
         <div className="flex flex-col my-6 text-xl md:space-x-12 md:flex-row">
           <button
             onClick={openModal}
-            className="flex-none w-full px-10 py-4 text-center bg-green-600 rounded-lg md:w-64 md:flex-none hover:bg-green-700 text-gray-50"
-          >
+            className="flex-none w-full px-10 py-4 text-center bg-green-600 rounded-lg md:w-64 md:flex-none hover:bg-green-700 text-gray-50">
             Anmälan
           </button>
         </div>
@@ -53,10 +52,9 @@ export default function Källbrink() {
           onRequestClose={closeModal}
           style={customStyles}
           contentLabel="Anmälan"
-          className=""
-        >
+          className="">
           <div className="flex justify-between mb-4">
-            <h2 className="text-xl" ref={(_subtitle) => (subtitle = _subtitle)}>
+            <h2 className="text-xl" ref={_subtitle => (subtitle = _subtitle)}>
               Anmälan till Vårby
             </h2>
             <button className="underline" onClick={closeModal}>
@@ -111,6 +109,40 @@ export default function Källbrink() {
               bostäder och Huddinge kommun.
             </p>
             <Ingar />
+            <h2>Exempel på hur en dag kan se ut:</h2>
+            <h4>Morgon:</h4>
+            <ul>
+              <li style={{ marginTop: 0, marginBottom: 0 }}>
+                Samling 09.00 med upprop och avprickning
+              </li>
+              <li style={{ marginTop: 0, marginBottom: 0 }}>
+                Friidrott – höjdhopp eller längdhopp
+              </li>
+            </ul>
+            <h4>Förmiddag:</h4>
+            <ul>
+              <li style={{ marginTop: 0, marginBottom: 0 }}>Mellanmål</li>
+              <li style={{ marginTop: 0, marginBottom: 0 }}>
+                Friidrott – höjdhopp eller längdhopp
+              </li>
+              <li style={{ marginTop: 0, marginBottom: 0 }}>Lunch</li>
+              <li style={{ marginTop: 0, marginBottom: 0 }}>
+                Rast – fri lek ca 30minuter - 1 timme
+              </li>
+            </ul>
+            <h4>Eftermiddag:</h4>
+            <ul>
+              <li style={{ marginTop: 0, marginBottom: 0 }}>
+                Lek tillsammans med flera grupper, tex leken ”Flaggan”
+              </li>
+              <li style={{ marginTop: 0, marginBottom: 0 }}>Mellanmål</li>
+              <li style={{ marginTop: 0, marginBottom: 0 }}>
+                Stafett med alla barn tillsammans
+              </li>
+              <li style={{ marginTop: 0, marginBottom: 0 }}>
+                Avslutning, dags att gå hem
+              </li>
+            </ul>
           </MainText>
         </main>
       </Container>

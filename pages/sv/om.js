@@ -15,7 +15,8 @@ export default function om() {
         <Title title="Om lägret" />
         <main>
           <MainText>
-            <h2>HAIS friidrottsskola 2008-2015</h2>
+            <h2>HAIS friidrottsskola</h2>
+            <h3>Ungdomar födda 2008-2015</h3>
             <p>
               Friidrottsskolan är ett dagläger för barn och ungdomar födda år
               2008-2015. Under en vecka får deltagarna en unik chans att prova
@@ -27,7 +28,8 @@ export default function om() {
               tävlingar och utmaningar samt medalj- och diplomutdelning till
               alla deltagare.
             </p>
-            <h2>HAIS friidrottsveckor 2008-2010</h2>
+            <h2>Friidrottsveckor</h2>
+            <h3>Ungdomar födda 2008-2010</h3>
             <p>
               Under samtliga veckor, 25, 26, 27, 32 och 33, kommer vi i år att
               erbjuda ungdomar som tränar friidrott i HAIS (eller annan
@@ -44,6 +46,41 @@ export default function om() {
                 individ att utvecklas, oavsett prestationsnivå.
               </li>
               <li>Frågor tas gärna emot på friidrottsskolan@huddingeais.se</li>
+            </ul>
+
+            <h2>Exempel på hur en dag kan se ut:</h2>
+            <h4>Morgon:</h4>
+            <ul>
+              <li style={{ paddingTop: 0, paddingBottom: 0 }}>
+                Samling 09.00 med upprop och avprickning
+              </li>
+              <li style={{ paddingTop: 0, paddingBottom: 0 }}>
+                Friidrott – höjdhopp eller längdhopp
+              </li>
+            </ul>
+            <h4>Förmiddag:</h4>
+            <ul>
+              <li style={{ marginTop: 0, marginBottom: 0 }}>Mellanmål</li>
+              <li style={{ marginTop: 0, marginBottom: 0 }}>
+                Friidrott – höjdhopp eller längdhopp
+              </li>
+              <li style={{ marginTop: 0, marginBottom: 0 }}>Lunch</li>
+              <li style={{ marginTop: 0, marginBottom: 0 }}>
+                Rast – fri lek ca 30minuter - 1 timme
+              </li>
+            </ul>
+            <h4>Eftermiddag:</h4>
+            <ul>
+              <li style={{ marginTop: 0, marginBottom: 0 }}>
+                Lek tillsammans med flera grupper, tex leken ”Flaggan”
+              </li>
+              <li style={{ marginTop: 0, marginBottom: 0 }}>Mellanmål</li>
+              <li style={{ marginTop: 0, marginBottom: 0 }}>
+                Stafett med alla barn tillsammans
+              </li>
+              <li style={{ marginTop: 0, marginBottom: 0 }}>
+                Avslutning, dags att gå hem
+              </li>
             </ul>
           </MainText>
         </main>

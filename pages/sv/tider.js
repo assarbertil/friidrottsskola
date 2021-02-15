@@ -8,7 +8,7 @@ import Container from "../../components/Container";
 
 export default function tider() {
   return (
-    <Layout>
+    <Layout nav="English">
       <Head>
         <title>Tider</title>
       </Head>

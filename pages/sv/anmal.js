@@ -7,7 +7,7 @@ import Container from "../../components/Container";
 
 export default function anmal() {
   return (
-    <Layout>
+    <Layout nav="English">
       <Head>
         <title>Anmälan</title>
       </Head>
@@ -25,7 +25,7 @@ export default function anmal() {
                 Genom att skicka ett mail
                 till friidrottsskolan@huddingeais.se och skriva:
               </li>
-              <ul className="ml-8 list-disc ">
+              <ul className="ml-8 list-disc">
                 <li style={{ margin: 0 }}>
                   För- och efternamn på barnet som ska gå på friidrottsskolan
                 </li>

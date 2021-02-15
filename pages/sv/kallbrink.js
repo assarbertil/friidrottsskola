@@ -34,7 +34,7 @@ export default function Kallbrink() {
   }
 
   return (
-    <Layout>
+    <Layout nav="English">
       <Head>
         <title>Källbrink</title>
       </Head>

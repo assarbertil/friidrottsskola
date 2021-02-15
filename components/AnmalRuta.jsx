@@ -1,6 +1,6 @@
 export default function AnmalRuta() {
   return (
-    <div className="bg-gray-100 shadow-xl rounded-xl">
+    <div id="anmal" className="bg-gray-100 shadow-xl rounded-xl">
       <div className="p-1 m-2 sm:p-8 sm:m-16">
         <h3 className="text-center">Anmälan kan göras på två sätt</h3>
         <ol className="mx-6 my-0 list-decimal">

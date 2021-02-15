@@ -3,12 +3,15 @@ export default function LogoCloud() {
 
   return (
     <div className={styles.container}>
-      <div className="py-6 parent">
-        <a href="https://www.svenskfast.se/" className="div1">
+      <div className=" parent">
+        {/* py-6 */}
+        {/* grid-template-rows: repeat(2, 1fr); */}
+
+        {/*<a href="https://www.huddinge.se/" className="div1">
           <img
-            src="/logos/svensk-fastighetsformedling_logo.svg"
-            alt="Svensk fastighets förmdeling"
-            className="cloud-logo"
+            src="/logos/huddinge_kommun_logotyp_cmyk.svg"
+            alt="Huddinge kommun"
+            className=" cloud-logo"
           />
         </a>
         <a href="https://www.huddingecentrum.se/" className="div2">
@@ -20,20 +23,16 @@ export default function LogoCloud() {
         </a>
         <a href="https://www.huge.se/" className="div3">
           <img src="/logos/huge.svg" alt="Huge" className="cloud-logo" />
-        </a>
-        <a href="https://www.lannasport.se/" className="div4">
+        </a> */}
+        <a href="https://www.huddingecentrum.se/" className="div4">
           <img
-            src="/logos/LannaSport-Logo.svg"
-            alt="Länna Sport"
+            src="/logos/huddinge.png"
+            alt="Huddinge centrum"
             className="cloud-logo"
           />
         </a>
-        <a href="https://www.svenskakyrkan.se/" className="div5">
-          <img
-            src="/logos/svenska kyrkan.svg"
-            alt="Svenska kyrkan"
-            className="cloud-logo"
-          />
+        <a href="https://www.huge.se/" className="div5">
+          <img src="/logos/huge.svg" alt="Huge" className="cloud-logo" />
         </a>
       </div>
     </div>

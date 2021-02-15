@@ -43,7 +43,8 @@ export default function Källbrink() {
         <div className="flex flex-col my-6 text-xl md:space-x-12 md:flex-row">
           <button
             onClick={openModal}
-            className="flex-none w-full px-10 py-4 text-center bg-green-600 rounded-lg md:w-64 md:flex-none hover:bg-green-700 text-gray-50">
+            className="flex-none w-full px-10 py-4 text-center bg-green-600 rounded-lg md:w-64 md:flex-none hover:bg-green-700 text-gray-50"
+          >
             Anmälan
           </button>
         </div>
@@ -52,9 +53,10 @@ export default function Källbrink() {
           onRequestClose={closeModal}
           style={customStyles}
           contentLabel="Anmälan"
-          className="">
+          className=""
+        >
           <div className="flex justify-between mb-4">
-            <h2 className="text-xl" ref={_subtitle => (subtitle = _subtitle)}>
+            <h2 className="text-xl" ref={(_subtitle) => (subtitle = _subtitle)}>
               Anmälan till Vårby
             </h2>
             <button className="underline" onClick={closeModal}>
@@ -95,7 +97,8 @@ export default function Källbrink() {
         <main>
           <MainText>
             <p className="underline">Platsinformation kommer</p>
-            <h3>HAIS friidrottsskola 2008-2015</h3>
+            <h2>HAIS friidrottsskola</h2>
+            <h3>Ungdomar födda 2008-2015</h3>
             <p>
               Friidrottsskolan är ett läger på dagtid för barn och ungdomar
               födda år 2008-2015. Under veckorna 26, 27 och 33 i sommar får

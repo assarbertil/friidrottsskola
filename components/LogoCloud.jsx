@@ -3,7 +3,7 @@ export default function LogoCloud() {
 
   return (
     <div className={styles.container}>
-      <div className="py-6 bg-gray-200 parent">
+      <div className="py-6 parent">
         <a href="https://www.svenskfast.se/" className="div1">
           <img
             src="/logos/svensk-fastighetsformedling_logo.svg"

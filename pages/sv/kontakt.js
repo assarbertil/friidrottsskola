@@ -20,11 +20,6 @@ export default function kontakt() {
             <p>Projektledare Huddinge AIS friidrottsskola</p>
             <a
               className="block text-blue-500 underline"
-              href="mailto:Emelie@huddingeais.se">
-              Emelie@huddingeais.se
-            </a>
-            <a
-              className="block text-blue-500 underline"
               href="mailto:friidrottsskolan@huddingeais.se">
               friidrottsskolan@huddingeais.se
             </a>

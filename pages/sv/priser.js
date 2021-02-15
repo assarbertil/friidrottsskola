@@ -78,7 +78,7 @@ export default function priser() {
                 </tr>
               </tbody>
             </table>
-            <hr className="border-b-2 border-white" />
+            <hr className="border-b-2 border-black" />
 
             <h2>Visättra</h2>
             <p>Alla veckor (25, 26 och 33): 0kr</p>
@@ -95,7 +95,28 @@ export default function priser() {
                 friidrottsskolan@huddingeais.se
               </a>
             </p>
-            <hr className="border-b-2 border-white" />
+            <p>
+              Ordinarie priser för dig som inte bor i Huge-fastighet och/eller
+              Visättra/Flemingsberg:
+            </p>
+
+            <table>
+              <tbody>
+                <tr>
+                  <td style={{ padding: 0 }}>Vecka 25 (mån-fre):</td>
+                  <td style={{ padding: 0 }}>900 kr</td>
+                </tr>
+                <tr>
+                  <td style={{ padding: 0 }}>Vecka 26 (mån-fre):</td>
+                  <td style={{ padding: 0 }}>1045 kr</td>
+                </tr>
+                <tr>
+                  <td style={{ padding: 0 }}>Vecka 33 (mån-fre):</td>
+                  <td style={{ padding: 0 }}>1045 kr</td>
+                </tr>
+              </tbody>
+            </table>
+            <hr className="border-b-2 border-black" />
             <h2>Vårby</h2>
             <p>Alla veckor (25, 26 och 33): 0kr</p>
             <p>
@@ -132,7 +153,7 @@ export default function priser() {
                 </tr>
               </tbody>
             </table>
-            <hr className="border-b-2 border-white" />
+            <hr className="border-b-2 border-black" />
 
             <Ingar />
           </MainText>

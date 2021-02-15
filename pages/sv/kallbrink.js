@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import Layout from "../../components/Layout";
 import Head from "next/head";
+import Link from "next/link";
 import Modal from "react-modal";
 
 import Title from "../../components/Title";
@@ -40,28 +41,12 @@ export default function Kallbrink() {
       <Container>
         <Title title="Källbrink" />
         <div className="flex flex-col my-6 text-xl md:space-x-12 md:flex-row">
-          <button
-            onClick={openModal}
+          <a
+            href="https://sportadmin.se/book/?F=d123110b-27e0-4bbf-bc51-bcdbb12f91ab"
             className="flex-none w-full px-10 py-4 text-center bg-green-600 rounded-lg md:w-64 md:flex-none hover:bg-green-700 text-gray-50">
             Anmälan
-          </button>
+          </a>
         </div>
-        <Modal
-          isOpen={modalIsOpen}
-          onRequestClose={closeModal}
-          style={customStyles}
-          contentLabel="Anmälan"
-          className="">
-          <div className="flex justify-between mb-4">
-            <h2 className="text-xl" ref={_subtitle => (subtitle = _subtitle)}>
-              Anmälan till Källbrink
-            </h2>
-            <button className="underline" onClick={closeModal}>
-              Stäng
-            </button>
-          </div>
-          <h3>Kommer snart på Huddinge AIS hemsida</h3>
-        </Modal>
         <main>
           <MainText>
             <a
@@ -76,7 +61,11 @@ export default function Kallbrink() {
             <p>
               Friidrottsskolan på Källbrink arrangeras vecka 25, 26, 27, 32 och
               33, dagarna är mellan klockan 09.30-15.00. Det finns möjlighet
-              till tillval ”barnpassning” se info nedan.
+              till tillval ”barnpassning” se info på{" "}
+              <Link href="/sv/priser">
+                <a className="text-blue-900 underline">Priser</a>
+              </Link>
+              .
             </p>
             <p>
               Friidrottsskolan är ett dagläger för barn och ungdomar födda år
@@ -101,6 +90,14 @@ export default function Kallbrink() {
               kommer mer att likna ett träningsläger där vi fokuserar på
               friidrottens grenar på en djupare, och mer individuell, nivå.
             </p>
+            <hr className="border-b-2 border-black" />
+
+            <p>
+              Deltagande i detta tillägg är INTE resultat – eller
+              prestationsbaserat. Våra ledare är där för att hjälpa varje
+              individ att utvecklas, oavsett prestationsnivå.
+            </p>
+            <p>Frågor tas gärna emot på friidrottsskolan@huddingeais.se</p>
           </MainText>
         </main>
       </Container>

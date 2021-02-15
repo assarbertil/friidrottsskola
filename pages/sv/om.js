@@ -39,22 +39,20 @@ export default function om() {
               kommer mer att likna ett träningsläger där vi fokuserar på
               friidrottens grenar på en djupare, och mer individuell, nivå.
             </p>
-            <ul className="list-disc">
-              <li>
-                Deltagande i detta tillägg är INTE resultat – eller
-                prestationsbaserat. Våra ledare är där för att hjälpa varje
-                individ att utvecklas, oavsett prestationsnivå.
-              </li>
-              <li>Frågor tas gärna emot på friidrottsskolan@huddingeais.se</li>
-            </ul>
+            <p>
+              Deltagande i detta tillägg är INTE resultat – eller
+              prestationsbaserat. Våra ledare är där för att hjälpa varje
+              individ att utvecklas, oavsett prestationsnivå.
+            </p>
+            <p>Frågor tas gärna emot på friidrottsskolan@huddingeais.se</p>
 
             <h2>Exempel på hur en dag kan se ut:</h2>
             <h4>Morgon:</h4>
             <ul>
-              <li style={{ paddingTop: 0, paddingBottom: 0 }}>
+              <li style={{ marginTop: 0, marginBottom: 0 }}>
                 Samling 09.00 med upprop och avprickning
               </li>
-              <li style={{ paddingTop: 0, paddingBottom: 0 }}>
+              <li style={{ marginTop: 0, marginBottom: 0 }}>
                 Friidrott – höjdhopp eller längdhopp
               </li>
             </ul>

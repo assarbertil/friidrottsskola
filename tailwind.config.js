@@ -27,7 +27,6 @@ module.exports = {
       }),
     },
     colors: {
-      // Build your palette here
       transparent: "transparent",
       current: "currentColor",
       gray: colors.trueGray,
@@ -37,7 +36,7 @@ module.exports = {
       blue: colors.lightBlue,
       yellow: colors.amber,
       green: colors.green,
-      semitransparent: "#ffffffd0",
+      semitransparent: "#ffffffa0",
     },
   },
   variants: {

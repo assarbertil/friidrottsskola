@@ -18,6 +18,11 @@ export default function jobba() {
             <h2>
               Vill du jobba på sommarens mest lärorika och roliga sommarjobb?
             </h2>
+            <a
+              href="https://forms.office.com/Pages/ResponsePage.aspx?id=6SZn45RNd0q-YdRZf0rNAtrClEBS15hMgjv-2iCSrWdUODQ4UDQ2MDVBWTI3TlRTM1gwTkI4NFQ4OC4u"
+              className="flex-none w-full px-10 py-4 text-center bg-green-600 rounded-lg md:w-64 md:flex-none hover:bg-green-700 text-gray-50">
+              Ansök till ledare
+            </a>
             <p>
               På Huddinge AIS friidrottsskola får du som ledare utrymme för att
               göra din jobbupplevelse till den bästa. Under dina jobbveckor
@@ -41,9 +46,17 @@ export default function jobba() {
               vet exakt hur många ledare som behövs. Det kan till exempel vara
               så att du får jobba på någon annan av våra tre friidrottsskolor än
               den du tilldelades vecka 14. Har du några frågor om jobbet på
-              friidrottsskolan hör gärna av dig!
+              friidrottsskolan hör gärna av dig via knappen ovan!
             </p>
-            <a href="mailto:friidrottsskolan@huddingeais.se">
+
+            <a
+              className="block mt-4 text-blue-900 underline"
+              href="/AvtalLedare.pdf">
+              Avtal för ledare
+            </a>
+            <a
+              className="block mt-4 text-blue-900 underline"
+              href="mailto:friidrottsskolan@huddingeais.se">
               friidrottsskolan@huddingeais.se
             </a>
           </MainText>

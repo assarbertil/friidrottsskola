@@ -75,7 +75,7 @@ export default function Index() {
                   href="https://www.facebook.com/huddingefriidrottsskola/"
                   target="_blank"
                   className="">
-                  Gilla oss på facebook <br />
+                  Like us on facebook <br />
                   <img
                     src="logos/FB-f-Logo__blue_50.png"
                     alt="FB-logga"

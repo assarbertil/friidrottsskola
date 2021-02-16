@@ -2,7 +2,6 @@ import { useState } from "react";
 
 import Layout from "../../components/Layout";
 import Head from "next/head";
-import Modal from "react-modal";
 
 import Title from "../../components/Title";
 import AnmalRutaVarby from "../../components/AnmalRutaVarby";

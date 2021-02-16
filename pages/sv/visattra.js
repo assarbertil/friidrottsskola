@@ -2,7 +2,6 @@ import { useState } from "react";
 
 import Layout from "../../components/Layout";
 import Head from "next/head";
-import Modal from "react-modal";
 
 import Title from "../../components/Title";
 import AnmalRuta from "../../components/AnmalRuta";
@@ -48,51 +47,6 @@ export default function Källbrink() {
             Anmälan
           </a>
         </div>
-        <Modal
-          isOpen={modalIsOpen}
-          onRequestClose={closeModal}
-          style={customStyles}
-          contentLabel="Anmälan"
-          className="">
-          <div className="flex justify-between mb-4">
-            <h2 className="text-xl" ref={_subtitle => (subtitle = _subtitle)}>
-              Anmälan till Visättra
-            </h2>
-            <button className="underline" onClick={closeModal}>
-              Stäng
-            </button>
-          </div>
-          <h3>Anmälan kan göras på två sätt:</h3>
-          <ol className="mx-6 my-0 list-decimal">
-            <li>
-              Genom att fylla i och lämna in den anmälningslapp barnet fått i
-              skolan till sin mentor.
-            </li>
-            <li>
-              Genom att skicka ett mail till friidrottsskolan@huddingeais.se och
-              skriva:
-            </li>
-            <ul className="ml-8 list-disc ">
-              <li>
-                För- och efternamn på barnet som ska gå på friidrottsskolan
-              </li>
-              <li>Personnummer på barnet</li>
-              <li>Adress, postnummer och ort</li>
-              <li>Om ni bor i Huge fastigheter</li>
-              <li>Telefonnummer till minst 1 förälder eller vårdnadshavare</li>
-              <li>Mailadress till minst 1 förälder eller vårdnadshavare</li>
-              <li>
-                Om barnet får vara med på foton på vår hemsida och instagram
-              </li>
-              <li>Om barnet behöver specialkost</li>
-              <li>Om barnet har några speciella behov vi ska ta hänsyn till</li>
-              <li>
-                Vilka veckor barnet ska gå (26, 27 och 33 finns, man kan välja
-                1-3st)
-              </li>
-            </ul>
-          </ol>
-        </Modal>
         <main>
           <MainText>
             <a
@@ -106,11 +60,15 @@ export default function Källbrink() {
             <h3>Ungdomar födda 2008-2015</h3>
             <p>
               Friidrottsskolan är ett läger på dagtid för barn och ungdomar
-              födda år 2007-2015. Under veckorna 25, 26 och 33 i sommar får
+              födda år 2008-2015. Under veckorna 25, 26 och 33 i sommar får
               barnen prova på friidrottens olika grenar, till exempel längdhopp,
               höjdhopp, 60m och kulstötning.
             </p>
-
+            <p>
+              Huddinge AIS Friidrottsskola i Vårby är gratis för alla barn som
+              bor i Vårby. Detta har gjorts möjligt med ett stort stöd från Huge
+              bostäder och Huddinge kommun.
+            </p>
             <Ingar />
             <h2>Exempel på hur en dag kan se ut:</h2>
             <h4>Morgon:</h4>

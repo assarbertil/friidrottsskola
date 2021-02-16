@@ -63,7 +63,7 @@ export default function Kallbrink() {
               33, dagarna är mellan klockan 09.30-15.00. Det finns möjlighet
               till tillval ”barnpassning” se info på{" "}
               <Link href="/sv/priser">
-                <a className="text-blue-900 underline">Priser</a>
+                <a className="text-blue-200 underline">Priser</a>
               </Link>
               .
             </p>

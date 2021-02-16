@@ -52,9 +52,9 @@ export default function Nav(props) {
             <Link href="/sv/kontakt">
               <a className="text-xl text-white">Kontakt</a>
             </Link>
-            {/*            <Link href="/en">
-              <a className="text-xl text-black">{props.nav}</a>
-            </Link> */}
+            {            <Link href="/en">
+              <a className="text-xl text-white">{props.nav}</a>
+            </Link> }
           </nav>
         </div>
       </div>

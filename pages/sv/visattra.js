@@ -66,8 +66,8 @@ export default function Källbrink() {
             </p>
             <p>
               Huddinge AIS Friidrottsskola i Vårby är gratis för alla barn som
-              bor i Vårby. Detta har gjorts möjligt med ett stort stöd från Huge
-              bostäder och Huddinge kommun.
+              bor i Visättra och Flemingsberg. Detta har gjorts möjligt med ett
+              stort stöd från Huge bostäder och Huddinge kommun.
             </p>
             <Ingar />
             <h2>Exempel på hur en dag kan se ut:</h2>

@@ -9,6 +9,7 @@ module.exports = {
       backgroundImage: theme => ({
         fri: "url('/assets/img/fri21-bg.jpg')",
       }),
+
       fontFamily: {
         sans: ["Inter", ...fontFamily.sans],
       },
@@ -36,7 +37,7 @@ module.exports = {
       blue: colors.lightBlue,
       yellow: colors.amber,
       green: colors.green,
-      semitransparent: "#ffffffa0",
+      semitransparent: "#00000080",
     },
   },
   variants: {

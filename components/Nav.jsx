@@ -19,7 +19,7 @@ export default function Nav(props) {
             <button
               onClick={() => setIsOpen(!isOpen)}
               type="button"
-              className="inline-flex items-center justify-center p-2 text-gray-900 rounded-md hover:text-gray-800 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+              className="inline-flex items-center justify-center p-2 rounded-md hover:text-gray-800 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
               <span className="sr-only">Open menu</span>
               {/* Heroicon name: outline/menu */}
               <svg
@@ -41,20 +41,23 @@ export default function Nav(props) {
 
           <nav className="hidden space-x-10 md:flex">
             <Link href="/sv/priser">
-              <a className="text-xl text-black">Priser &amp; info</a>
+              <a className="text-xl text-white">Priser &amp; info</a>
             </Link>
             <Link href="/sv/tider">
-              <a className="text-xl text-black">Tider</a>
+              <a className="text-xl text-white">Tider</a>
             </Link>
             <Link href="/sv/om">
-              <a className="text-xl text-black">Om lägret</a>
+              <a className="text-xl text-white">Om lägret</a>
             </Link>
             <Link href="/sv/kontakt">
-              <a className="text-xl text-black">Kontakt</a>
+              <a className="text-xl text-white">Kontakt</a>
             </Link>
             {/*            <Link href="/en">
               <a className="text-xl text-black">{props.nav}</a>
             </Link> */}
+            <Link href="/en">
+              <a className="text-xl text-white">{props.nav}</a>
+            </Link>
           </nav>
         </div>
       </div>

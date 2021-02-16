@@ -1,6 +1,6 @@
-export default function AnmalRuta() {
+export default function AnmalRutaVarby() {
   return (
-    <div id="anmal" className="bg-black shadow-xl opacity-50 rounded-xl">
+    <div id="anmal" className="bg-black shadow-xl rounded-xl">
       <div className="p-1 m-2 sm:p-8 sm:m-16">
         <h3 className="text-center">Anmälan kan göras på två sätt</h3>
         <ol className="mx-6 my-0 list-decimal">
@@ -9,13 +9,8 @@ export default function AnmalRuta() {
             skolan till sin mentor.
           </li>
           <li>
-            Genom att skicka ett mail till 
-            <a
-              className="block text-blue-200 underline"
-              href="mailto:friidrottsskolan@huddingeais.se">
-              friidrottsskolan@huddingeais.se{" "}
-            </a>
-             och skriva:
+            Genom att skicka ett mail till <a className="block text-blue-200 underline" href="mailto:friidrottsskolan@huddingeais.se">
+              friidrottsskolan@huddingeais.se </a> och skriva:
           </li>
           <ul className="ml-8 list-disc ">
             <li>För- och efternamn på barnet som ska gå på friidrottsskolan</li>
@@ -30,7 +25,7 @@ export default function AnmalRuta() {
             <li>Om barnet behöver specialkost</li>
             <li>Om barnet har några speciella behov vi ska ta hänsyn till</li>
             <li>
-              Vilka veckor barnet ska gå (25, 26 och 33 finns, man kan välja
+              Vilka veckor barnet ska gå (26, 27 och 33 finns, man kan välja
               1-3st)
             </li>
           </ul>

@@ -63,7 +63,7 @@ export default function Kallbrink() {
               33, dagarna är mellan klockan 09.30-15.00. Det finns möjlighet
               till tillval ”barnpassning” se info på{" "}
               <Link href="/sv/priser">
-                <a className="text-blue-900 underline">Priser</a>
+                <a className="text-blue-200 underline">Priser</a>
               </Link>
               .
             </p>
@@ -95,7 +95,12 @@ export default function Kallbrink() {
               prestationsbaserat. Våra ledare är där för att hjälpa varje
               individ att utvecklas, oavsett prestationsnivå.
             </p>
-            <p>Frågor tas gärna emot på friidrottsskolan@huddingeais.se</p>
+            <p>Frågor tas gärna emot på <a
+                className="block text-blue-200 underline"
+                href="mailto:friidrottsskolan@huddingeais.se">
+                friidrottsskolan@huddingeais.se
+              </a>
+            </p>
           </MainText>
         </main>
       </Container>

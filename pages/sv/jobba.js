@@ -46,29 +46,29 @@ export default function jobba() {
 
             <h2> Hur ansöker jag?</h2>
             <p>
-              Du kan trycka på knappen nedan för att komma till anmälningsformuläret. För att anmäla sig ska man
-              fylla i allt från tidigare jobberfarenheter till önskemål och varför just du passar som ledare på
-              Huddinge AIS friidrottsskola. Formuläret består av totalt 34 frågor du ska svara utförligt på.
+              Du kan trycka på knappen nedan för att komma till
+              anmälningsformuläret. För att anmäla sig ska man fylla i allt från
+              tidigare jobberfarenheter till önskemål och varför just du passar
+              som ledare på Huddinge AIS friidrottsskola. Formuläret består av
+              totalt 34 frågor du ska svara utförligt på.
             </p>
             <a
               className="block mt-4 text-blue-200 underline"
               href="/AvtalLedare.pdf">
               Avtal för ledare
             </a>
-            
+
             <a
               className="block mt-4 text-blue-200 underline"
               href="mailto:friidrottsskolan@huddingeais.se">
               friidrottsskolan@huddingeais.se
             </a>
-            <p></p>
             <a
               target="_blank"
               href="https://forms.office.com/Pages/ResponsePage.aspx?id=6SZn45RNd0q-YdRZf0rNAtrClEBS15hMgjv-2iCSrWdUODQ4UDQ2MDVBWTI3TlRTM1gwTkI4NFQ4OC4u"
-              className="flex-none w-full px-10 py-4 text-center bg-green-600 rounded-lg md:w-64 md:flex-none hover:bg-green-700 text-gray-50">
+              className="flex-none block w-full px-10 py-4 mt-4 text-center bg-green-600 rounded-lg md:w-64 md:flex-none hover:bg-green-700 text-gray-50">
               Ansök till ledare
             </a>
-
           </MainText>
         </main>
       </Container>

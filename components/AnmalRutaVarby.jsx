@@ -1,6 +1,6 @@
 export default function AnmalRutaVarby() {
   return (
-    <div id="anmal" className="bg-black shadow-xl rounded-xl">
+    <div id="anmal" className="shadow-xl bg-semitransparent rounded-xl">
       <div className="p-1 m-2 sm:p-8 sm:m-16">
         <h3 className="text-center">Anmälan kan göras på två sätt</h3>
         <ol className="mx-6 my-0 list-decimal">
@@ -9,8 +9,13 @@ export default function AnmalRutaVarby() {
             skolan till sin mentor.
           </li>
           <li>
-            Genom att skicka ett mail till <a className="block text-blue-200 underline" href="mailto:friidrottsskolan@huddingeais.se">
-              friidrottsskolan@huddingeais.se </a> och skriva:
+            Genom att skicka ett mail till 
+            <a
+              className="block text-blue-200 underline"
+              href="mailto:friidrottsskolan@huddingeais.se">
+              friidrottsskolan@huddingeais.se{" "}
+            </a>
+             och skriva:
           </li>
           <ul className="ml-8 list-disc ">
             <li>För- och efternamn på barnet som ska gå på friidrottsskolan</li>

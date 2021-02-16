@@ -55,6 +55,12 @@ export default function jobba() {
               href="/AvtalLedare.pdf">
               Avtal för ledare
             </a>
+            
+            <a
+              className="block mt-4 text-blue-200 underline"
+              href="mailto:friidrottsskolan@huddingeais.se">
+              friidrottsskolan@huddingeais.se
+            </a>
             <a
               target="_blank"
               href="https://forms.office.com/Pages/ResponsePage.aspx?id=6SZn45RNd0q-YdRZf0rNAtrClEBS15hMgjv-2iCSrWdUODQ4UDQ2MDVBWTI3TlRTM1gwTkI4NFQ4OC4u"
@@ -62,11 +68,6 @@ export default function jobba() {
               Ansök till ledare
             </a>
 
-            <a
-              className="block mt-4 text-blue-200 underline"
-              href="mailto:friidrottsskolan@huddingeais.se">
-              friidrottsskolan@huddingeais.se
-            </a>
           </MainText>
         </main>
       </Container>

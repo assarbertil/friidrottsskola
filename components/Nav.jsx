@@ -52,9 +52,9 @@ export default function Nav(props) {
             <Link href="/sv/kontakt">
               <a className="text-xl text-black">Kontakt</a>
             </Link>
-            <Link href="/en">
+            {/*            <Link href="/en">
               <a className="text-xl text-black">{props.nav}</a>
-            </Link>
+            </Link> */}
           </nav>
         </div>
       </div>
@@ -125,13 +125,13 @@ export default function Nav(props) {
                       </span>
                     </a>
                   </Link>
-                  <Link href="/en">
+                  {/*                   <Link href="/en">
                     <a className="flex items-center p-3 -m-3 rounded-md hover:bg-gray-50">
                       <span className="ml-3 text-base font-medium text-gray-900">
                         {props.nav}
                       </span>
                     </a>
-                  </Link>
+                  </Link> */}
                 </nav>
               </div>
             </div>

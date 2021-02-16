@@ -9,8 +9,8 @@ export default function AnmalRuta() {
             skolan till sin mentor.
           </li>
           <li>
-            Genom att skicka ett mail till friidrottsskolan@huddingeais.se och
-            skriva:
+            Genom att skicka ett mail till <a className="block text-blue-200 underline" href="mailto:friidrottsskolan@huddingeais.se">
+              friidrottsskolan@huddingeais.se </a> och skriva:
           </li>
           <ul className="ml-8 list-disc ">
             <li>För- och efternamn på barnet som ska gå på friidrottsskolan</li>

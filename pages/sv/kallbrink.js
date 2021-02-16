@@ -95,7 +95,12 @@ export default function Kallbrink() {
               prestationsbaserat. Våra ledare är där för att hjälpa varje
               individ att utvecklas, oavsett prestationsnivå.
             </p>
-            <p>Frågor tas gärna emot på friidrottsskolan@huddingeais.se</p>
+            <p>Frågor tas gärna emot på <a
+                className="block text-blue-200 underline"
+                href="mailto:friidrottsskolan@huddingeais.se">
+                friidrottsskolan@huddingeais.se
+              </a>
+            </p>
           </MainText>
         </main>
       </Container>

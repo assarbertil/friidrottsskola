@@ -50,13 +50,19 @@ export default function jobba() {
               friidrottsskolan hör gärna av dig via knappen ovan!
             </p>
 
+            <h2> Hur ansöker jag?</h2>
+            <p>
+              Du kan trycka på knappen ovan för att komma till anmälningsformuläret. För att anmäla sig ska man
+              fylla i allt från tidigare jobberfarenheter till önskemål och varför just du passar som ledare på
+              Huddinge AIS friidrottsskola. Formuläret består av totalt 34 frågor du ska svara utförligt på.
+            </p>
             <a
-              className="block mt-4 text-blue-900 underline"
+              className="block mt-4 text-blue-200 underline"
               href="/AvtalLedare.pdf">
               Avtal för ledare
             </a>
             <a
-              className="block mt-4 text-blue-900 underline"
+              className="block mt-4 text-blue-200 underline"
               href="mailto:friidrottsskolan@huddingeais.se">
               friidrottsskolan@huddingeais.se
             </a>

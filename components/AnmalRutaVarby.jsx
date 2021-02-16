@@ -1,4 +1,4 @@
-export default function AnmalRuta() {
+export default function AnmalRutaVarby() {
   return (
     <div id="anmal" className="bg-black shadow-xl rounded-xl">
       <div className="p-1 m-2 sm:p-8 sm:m-16">
@@ -25,7 +25,7 @@ export default function AnmalRuta() {
             <li>Om barnet behöver specialkost</li>
             <li>Om barnet har några speciella behov vi ska ta hänsyn till</li>
             <li>
-              Vilka veckor barnet ska gå (25, 26 och 33 finns, man kan välja
+              Vilka veckor barnet ska gå (26, 27 och 33 finns, man kan välja
               1-3st)
             </li>
           </ul>

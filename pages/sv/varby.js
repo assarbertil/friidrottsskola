@@ -5,7 +5,7 @@ import Head from "next/head";
 import Modal from "react-modal";
 
 import Title from "../../components/Title";
-import AnmalRuta from "../../components/AnmalRuta";
+import AnmalRutaVarby from "../../components/AnmalRutaVarby";
 import MainText from "../../components/MainText";
 import Ingar from "../../components/Ingar";
 import Container from "../../components/Container";
@@ -99,7 +99,7 @@ export default function Källbrink() {
                 Avslutning, dags att gå hem
               </li>
             </ul>
-            <AnmalRuta />
+            <AnmalRutaVarby />
           </MainText>
         </main>
       </Container>

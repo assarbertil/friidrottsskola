@@ -4,7 +4,7 @@ import Layout from "../../components/Layout";
 import Head from "next/head";
 
 import Title from "../../components/Title";
-import AnmalRuta from "../../components/AnmalRuta";
+import AnmalRutaVarby from "../../components/AnmalRutaVarby";
 import MainText from "../../components/MainText";
 import Ingar from "../../components/Ingar";
 import Container from "../../components/Container";
@@ -36,10 +36,10 @@ export default function Källbrink() {
   return (
     <Layout nav="English">
       <Head>
-        <title>Visättra</title>
+        <title>Vårby</title>
       </Head>
       <Container>
-        <Title title="Visättra" />
+        <Title title="Vårby" />
         <div className="flex flex-col my-6 text-xl md:space-x-12 md:flex-row">
           <a
             href="#anmal"
@@ -49,25 +49,19 @@ export default function Källbrink() {
         </div>
         <main>
           <MainText>
-            <a
-              className="underline"
-              href="https://goo.gl/maps/RaK7sns6wKvxuT4t7"
-              target="_blank"
-              rel="noopener noreferrer">
-              Visättra sportcenter
-            </a>
+            <p className="underline">Platsinformation kommer</p>
             <h2>HAIS friidrottsskola</h2>
             <h3>Ungdomar födda 2008-2015</h3>
             <p>
               Friidrottsskolan är ett läger på dagtid för barn och ungdomar
-              födda år 2008-2015. Under veckorna 25, 26 och 33 i sommar får
+              födda år 2008-2015. Under veckorna 26, 27 och 33 i sommar får
               barnen prova på friidrottens olika grenar, till exempel längdhopp,
               höjdhopp, 60m och kulstötning.
             </p>
             <p>
-              Huddinge AIS Friidrottsskola i Visättra är gratis för alla barn
-              som bor i Visättra och Flemingsberg. Detta har gjorts möjligt med
-              ett stort stöd från Huge bostäder och Huddinge kommun.
+              Huddinge AIS Friidrottsskola i Vårby är gratis för alla barn som
+              bor i Vårby. Detta har gjorts möjligt med ett stort stöd från Huge
+              bostäder och Huddinge kommun.
             </p>
             <Ingar />
             <h2>Exempel på hur en dag kan se ut:</h2>
@@ -104,7 +98,7 @@ export default function Källbrink() {
                 Avslutning, dags att gå hem
               </li>
             </ul>
-            <AnmalRuta />
+            <AnmalRutaVarby />
           </MainText>
         </main>
       </Container>

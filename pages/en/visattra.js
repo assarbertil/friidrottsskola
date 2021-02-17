@@ -65,9 +65,9 @@ export default function Källbrink() {
               höjdhopp, 60m och kulstötning.
             </p>
             <p>
-              Huddinge AIS Friidrottsskola i Visättra är gratis för alla barn
-              som bor i Visättra och Flemingsberg. Detta har gjorts möjligt med
-              ett stort stöd från Huge bostäder och Huddinge kommun.
+              Huddinge AIS Friidrottsskola i Visättra är gratis för alla barn som
+              bor i Visättra och Flemingsberg. Detta har gjorts möjligt med ett stort stöd från Huge
+              bostäder och Huddinge kommun.
             </p>
             <Ingar />
             <h2>Exempel på hur en dag kan se ut:</h2>

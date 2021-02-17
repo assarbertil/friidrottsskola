@@ -10,7 +10,7 @@ import LogoCloud from "../components/LogoCloud";
 
 export default function Index() {
   return (
-    <Layout nav="English">
+    <Layout en={false}>
       <Head>
         <title>HAIS Friidrottsskola</title>
       </Head>

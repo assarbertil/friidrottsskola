@@ -8,32 +8,9 @@ import Title from "../../components/Title";
 import MainText from "../../components/MainText";
 import Container from "../../components/Container";
 
-const customStyles = {
-  content: {
-    top: "50%",
-    left: "50%",
-    right: "auto",
-    bottom: "auto",
-    marginRight: "-50%",
-    transform: "translate(-50%, -50%)",
-    background: "#111",
-    color: "#fff",
-    padding: "2rem",
-  },
-};
-
 export default function Kallbrink() {
-  var subtitle;
-  const [modalIsOpen, setIsOpen] = useState(false);
-  function openModal() {
-    setIsOpen(true);
-  }
-  function closeModal() {
-    setIsOpen(false);
-  }
-
   return (
-    <Layout nav="English">
+    <Layout en={true}>
       <Head>
         <title>Källbrink</title>
       </Head>
@@ -56,38 +33,41 @@ export default function Kallbrink() {
               Källbrinks IP
             </a>
             <h2>HAIS friidrottsskola</h2>
-            <h3>Ungdomar födda 2008-2015</h3>
+            <h3>Kids born 2008-2015</h3>
             <p>
-              Friidrottsskolan på Källbrink arrangeras vecka 25, 26, 27, 32 och
-              33, dagarna är mellan klockan 09.30-15.00. Det finns möjlighet
-              till tillval ”barnpassning” se info på{" "}
-              <Link href="/sv/priser">
+              Friidrottsskolan at Källbrink is arranged week 25, 26, 27, 32 and
+              33, the days are between 09.30-15.00. There is optional
+              "childcare" see info below.{" "}
+              <Link href="/en/pricing">
                 <a className="text-blue-200 underline">Priser</a>
               </Link>
               .
             </p>
             <p>
-              Friidrottsskolan är ett dagläger för barn och ungdomar födda år
-              2008-2015. Under en vecka får deltagarna en unik chans att prova
-              på friidrottens olika grenar under ledning av våra engagerade
-              ledare. Utöver friidrotten kommer vi vara på flera skogsäventyr.
-              Vi är också noga med att göra plats för gemenskap och att skapa
-              nya vänskapsrelationer i grupperna. Sista dagen på
-              friidrottsskolan fyller vi med olika friidrottsinspirerade
-              tävlingar och utmaningar samt medalj- och diplomutdelning till
-              alla deltagare.
+              Friidrottsskolan is a day camp for children and youths born in
+              2008-2015. During a week, the participants get a unique chance to
+              try out the different branches of track en field under the
+              guidance of our committed leaders. In addition to track and field,
+              we will be on several forest adventures. We are also careful to
+              make room for community and to create new friendships in the
+              groups. The last day at Friidrottsskolan we will have various
+              athletics-inspired competitions and challenges as well as medal
+              and diploma distribution to all participants.
             </p>
 
             <h2>Friidrottsveckor</h2>
-            <h3>Ungdomar födda 2008-2010</h3>
+            <h3>Kids born 2008-2010</h3>
             <p>
-              Under samtliga veckor, 25, 26, 27, 32 och 33, kommer vi i år att
-              erbjuda ungdomar som tränar friidrott i HAIS (eller annan
-              friidrottsförening) och är födda 2008-2010 en möjlighet att anmäla
-              sig till ett nytt koncept som vi kallar HAIS Friidrottsvecka.
-              Priset, samt allt som ingår, förblir detsamma men dagsupplägget
-              kommer mer att likna ett träningsläger där vi fokuserar på
-              friidrottens grenar på en djupare, och mer individuell, nivå.
+              During all weeks, 25, 26, 27, 32 and 33, this year we will offer
+              young people who train track and field in HAIS (or another
+              athletics association) and are born in 2008-2010 an opportunity to
+              sign up for a new concept that we call HAIS Athletics Week. The
+              price, as well as everything that is included, remains the same,
+              but the daily schedule will be more like a training camp where we
+              focus on the branches of track and field on a deeper, and more
+              individual, level.Participation in this supplement is NOT
+              performance or performance based. Our leaders are there to help
+              each individual develop, regardless of achievement level.
             </p>
             <p>
               Deltagande i detta tillägg är INTE resultat – eller
@@ -95,7 +75,7 @@ export default function Kallbrink() {
               individ att utvecklas, oavsett prestationsnivå.
             </p>
             <p>
-              Frågor tas gärna emot på 
+              Questions are welcome at
               <a
                 className="block text-blue-200 underline"
                 href="mailto:friidrottsskolan@huddingeais.se">

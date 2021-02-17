@@ -7,12 +7,12 @@ import Container from "../../components/Container";
 
 export default function kontakt() {
   return (
-    <Layout nav="English">
+    <Layout en={true}>
       <Head>
-        <title>Kontakt</title>
+        <title>Contact</title>
       </Head>
       <Container>
-        <Title title="Kontakt" />
+        <Title title="Contact" />
         <main>
           <MainText>
             <h2>Huddinge AIS Friidrott</h2>

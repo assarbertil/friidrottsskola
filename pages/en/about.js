@@ -44,52 +44,48 @@ export default function om() {
               achievement level.
             </p>
             <p>
-              Deltagande i detta tillägg är INTE resultat – eller
-              prestationsbaserat. Våra ledare är där för att hjälpa varje
-              individ att utvecklas, oavsett prestationsnivå.
+              Participation is not performance-based. Our leaders are there to
+              help every person develop, no matter their skill level.
             </p>
             <h2 style={{ marginBottom: 0 }}>Covid-19</h2>
             <p style={{ marginTop: 0 }}>
-              Sommaren närmar sig och för många blir den på många sätt
-              annorlunda i år igen. Vi på Huddinge AIS vill att en sak ska vara
-              sig lik denna sommar och det är möjligheten att gå på vår
-              uppskattade friidrottsskola.
+              Summer is approaching and for many of us it will be different
+              again. We at Huddinge AIS want to keep one thing the same; the
+              possibility of participating in our appreciated friidrottsskola.
             </p>
             <p style={{ marginTop: 0 }}>
               {" "}
-              Rekommendationer och riktlinjer från bland annat
-              Folkhälsomyndigheten är självklart vår högsta prioritet och vi som
-              förening vill också fortsätta att uppmuntra till rörelseglädje i
-              en tid då detta behövs mer än någonsin. Vi är optimistiska inför
-              att kunna erbjuda friidrottsskolan och vi kommer att vidta de
-              åtgärder som krävs för att kunna genomföra verksamheten på ett
-              säkert sätt. Vi kommer anpassa och göra vårt bästa för att alla
-              friidrottssugna ungdomar ska få en oförglömlig sommar med oss på
-              Huddinge AIS friidrottsskola.
+              Recommendations and guidlines from the public health authority
+              (Folkhälsomyndigheten) is of course our highest priority and we as
+              an organisation want to keep encouraging the joy of movement in a
+              time it is needed the more than ever. We are optimistic to offer
+              friidrottsskola and we will take the precautions necessary to
+              offer it in a safe way. We are adapting the camp to the best of
+              our abilities to be able to create an unforgettable summer for all
+              excited participants with us at Huddinge AIS Friidrottsskola.
             </p>
             <p style={{ marginTop: 0 }}>
-              Några av förra årets lyckade anpassningar:
+              Some of last year´s successful adjkustments:
               <ul
                 className="ml-4 list-disc"
                 style={{ marginTop: 0, marginLeft: 20 }}>
                 <li style={{ margin: 0 }}>
-                  Mindre grupper – Det blev större gemenskap i grupperna samt
-                  gav mer tid för ledarna att lära känna gruppen lite extra. Det
-                  möjliggjorde viss anpassning i aktiviteter under dagarna
-                  vilket i sin tur gjorde så att gruppen kunde ha en roligare
-                  vecka!
+                  Smaller groups – The sense of community inside the groups grew
+                  and gave the leaders more time to get to know the groups. That
+                  allowed for more adaptation within activities during the days
+                  which in turn made the groups have a more fun week.
                 </li>
                 <li style={{ margin: 0 }}>
-                  Rutiner – För att undvika köer hade grupperna i den mån som
-                  gick fasta mat, vatten och toa pauser. Det minskade onödigt
-                  spring, alla kunde vara mer delaktiga och gav mer tid för
-                  annat roligt!
+                  Routines – To avoid line-ups, the groups hade set times for
+                  food, water and toilet breaks. That decreased unnecessary time
+                  wasted so everyone could be more involved and make more time
+                  for fun.
                 </li>
               </ul>
             </p>
 
             <p>
-              Frågor tas gärna emot på 
+              Questions are welcome at
               <a
                 className="block text-blue-200 underline"
                 href="mailto:friidrottsskolan@huddingeais.se">

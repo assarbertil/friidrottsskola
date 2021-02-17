@@ -17,7 +17,7 @@ export default function kontakt() {
           <MainText>
             <h2>Huddinge AIS Friidrott</h2>
             <p>Emelie Schlyter</p>
-            <p>Projektledare Huddinge AIS friidrottsskola</p>
+            <p>Project leader Huddinge AIS friidrottsskola</p>
             <a
               className="block text-blue-200 underline"
               href="mailto:friidrottsskolan@huddingeais.se">

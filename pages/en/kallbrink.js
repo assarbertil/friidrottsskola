@@ -70,9 +70,8 @@ export default function Kallbrink() {
               each individual develop, regardless of achievement level.
             </p>
             <p>
-              Deltagande i detta tillägg är INTE resultat – eller
-              prestationsbaserat. Våra ledare är där för att hjälpa varje
-              individ att utvecklas, oavsett prestationsnivå.
+              Participation is not performance-based. Our leaders are there to
+              help every person develop, no matter their skill level.
             </p>
             <p>
               Questions are welcome at

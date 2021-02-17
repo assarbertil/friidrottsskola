@@ -8,7 +8,7 @@ import Container from "../../components/Container";
 
 export default function tider() {
   return (
-    <Layout nav="English">
+    <Layout en={true}>
       <Head>
         <title>Tider</title>
       </Head>
@@ -20,45 +20,45 @@ export default function tider() {
             <table>
               <tbody>
                 <tr>
-                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Vecka 25</td>
+                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Week 25</td>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>
-                    Måndag - Torsdag
+                    Monday- Thursday
                   </td>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>
                     09:30-15:00
                   </td>
                 </tr>
                 <tr>
-                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Vecka 26</td>
+                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Week 26</td>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>
-                    Måndag - Fredag
+                    Monday- Friday
                   </td>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>
                     09:30-15:00
                   </td>
                 </tr>
                 <tr>
-                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Vecka 27</td>
+                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Week 27</td>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>
-                    Måndag - Fredag
+                    Monday- Friday
                   </td>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>
                     09:30-15:00
                   </td>
                 </tr>
                 <tr>
-                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Vecka 32</td>
+                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Week 32</td>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>
-                    Måndag - Fredag
+                    Monday- Friday
                   </td>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>
                     09:30-15:00
                   </td>
                 </tr>
                 <tr>
-                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Vecka 33</td>
+                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Week 33</td>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>
-                    Måndag - Fredag
+                    Monday- Friday
                   </td>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>
                     09:30-15:00
@@ -66,18 +66,19 @@ export default function tider() {
                 </tr>
               </tbody>
             </table>
-            <h3>Tillval</h3>
+            <h3>Options</h3>
             <p>
-              Barnpassning (Begränsat antal!) (Lämna/hämta någon gång mellan kl.
+              Childcare 350 kr (Limited amount!) (Leave/ pick up your child at
               08.00-09.30 + 15.00-16.00)
             </p>
             <p>
-              OBS: Om barnpassning INTE görs som tillval får barnet inte lämnas
-              tidigare än i anslutning till utsatt starttid 09.30.
+              NOTE: If you don’t choose childcare as addition you aren't allowed
+              to leave your child before kl.09:30. You can do a late sign up but
+              then it costs 450kr.
             </p>
             <p>Efteranmälan kan göras i mån av plats och kostar då extra.</p>
             <Link href="/sv/priser/">
-              <a>Se priser för barnpassningen HÄR </a>
+              <a>See pricing for childcare here</a>
             </Link>
             <hr className="border-b-2 border-black" />
 
@@ -85,27 +86,27 @@ export default function tider() {
             <table>
               <tbody>
                 <tr>
-                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Vecka 25</td>
+                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Week 25</td>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>
-                    Måndag - Torsdag
+                    Monday- Thursday
                   </td>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>
                     09:00-15:00
                   </td>
                 </tr>
                 <tr>
-                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Vecka 26</td>
+                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Week 26</td>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>
-                    Måndag - Fredag
+                    Monday- Friday
                   </td>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>
                     09:00-15:00
                   </td>
                 </tr>
                 <tr>
-                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Vecka 33</td>
+                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Week 33</td>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>
-                    Måndag - Fredag
+                    Monday- Friday
                   </td>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>
                     09:00-15:00
@@ -119,27 +120,27 @@ export default function tider() {
             <table>
               <tbody>
                 <tr>
-                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Vecka 26</td>
+                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Week 26</td>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>
-                    Måndag - Fredag
+                    Monday- Friday
                   </td>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>
                     09:00-15:00
                   </td>
                 </tr>
                 <tr>
-                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Vecka 27</td>
+                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Week 27</td>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>
-                    Måndag - Fredag
+                    Monday- Friday
                   </td>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>
                     09:00-15:00
                   </td>
                 </tr>
                 <tr>
-                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Vecka 33</td>
+                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Week 33</td>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>
-                    Måndag - Fredag
+                    Monday- Friday
                   </td>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>
                     09:00-15:00

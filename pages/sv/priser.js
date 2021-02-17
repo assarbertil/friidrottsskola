@@ -9,7 +9,7 @@ import Container from "../../components/Container";
 
 export default function priser() {
   return (
-    <Layout nav="English">
+    <Layout en={false}>
       <Head>
         <title>Priser</title>
       </Head>

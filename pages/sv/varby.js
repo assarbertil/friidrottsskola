@@ -34,7 +34,7 @@ export default function Källbrink() {
   }
 
   return (
-    <Layout nav="English">
+    <Layout en={false}>
       <Head>
         <title>Vårby</title>
       </Head>

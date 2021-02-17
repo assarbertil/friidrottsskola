@@ -7,37 +7,41 @@ import Container from "../../components/Container";
 
 export default function om() {
   return (
-    <Layout en={false}>
+    <Layout en={true}>
       <Head>
-        <title>Om lägret</title>
+        <title>About the camp</title>
       </Head>
       <Container>
-        <Title title="Om lägret" />
+        <Title title="About the camp" />
         <main>
           <MainText>
             <h2 style={{ marginBottom: 0 }}>HAIS friidrottsskola</h2>
-            <h3>Ungdomar födda 2008-2015</h3>
+            <h3>Kids born 2008-2015</h3>
             <p>
-              Friidrottsskolan är ett dagläger för barn och ungdomar födda år
-              2008-2015. Under en vecka får deltagarna en unik chans att prova
-              på friidrottens olika grenar under ledning av våra engagerade
-              ledare. Utöver friidrotten kommer vi vara på flera skogsäventyr.
-              Vi är också noga med att göra plats för gemenskap och att skapa
-              nya vänskapsrelationer i grupperna. Sista dagen på
-              friidrottsskolan fyller vi med olika friidrottsinspirerade
-              tävlingar och utmaningar samt medalj- och diplomutdelning till
-              alla deltagare.
+              Friidrottsskolan is a day camp for children and youths born in
+              2008-2015. During a week, the participants get a unique chance to
+              try out the different branches of track en field under the
+              guidance of our committed leaders. In addition to track and field,
+              we will be on several forest adventures. We are also careful to
+              make room for community and to create new friendships in the
+              groups. The last day at Friidrottsskolan we will have various
+              athletics-inspired competitions and challenges as well as medal
+              and diploma distribution to all participants.
             </p>
             <h2 style={{ marginBottom: 0 }}>Friidrottsveckor</h2>
-            <h3>Ungdomar födda 2008-2010</h3>
+            <h3>Kids born 2008-2010</h3>
             <p>
-              Under samtliga veckor, 25, 26, 27, 32 och 33, kommer vi i år att
-              erbjuda ungdomar som tränar friidrott i HAIS (eller annan
-              friidrottsförening) och är födda 2008-2010 en möjlighet att anmäla
-              sig till ett nytt koncept som vi kallar HAIS Friidrottsvecka.
-              Priset, samt allt som ingår, förblir detsamma men dagsupplägget
-              kommer mer att likna ett träningsläger där vi fokuserar på
-              friidrottens grenar på en djupare, och mer individuell, nivå.
+              During all weeks, 25, 26, 27, 32 and 33, this year we will offer
+              young people who train track and field in HAIS (or another
+              athletics association) and are born in 2008-2010 an opportunity to
+              sign up for a new concept that we call HAIS Friidrottsvecka at
+              Källbrink. The price, as well as everything that is included,
+              remains the same, but the daily schedule will be more like a
+              training camp where we focus on the branches of track and field on
+              a deeper, and more individual, level.Participation in this
+              supplement is NOT performance or performance based. Our leaders
+              are there to help each individual develop, regardless of
+              achievement level.
             </p>
             <p>
               Deltagande i detta tillägg är INTE resultat – eller
@@ -92,39 +96,45 @@ export default function om() {
                 friidrottsskolan@huddingeais.se{" "}
               </a>
             </p>
-
-            <h2>Exempel på hur en dag kan se ut:</h2>
-            <h4>Morgon:</h4>
+            <h3>More information – What do we do at friidrottsskolan?</h3>
+            <p>
+              The first day of the week, the leaders meet the children at
+              Visättra Sportcenter. There they tell which group the child should
+              be in and who is the leader of the group.
+            </p>
+            <h2>Example of one day at Friidrottsskolan:</h2>
+            <h4>Morning:</h4>
             <ul>
               <li style={{ marginTop: 0, marginBottom: 0 }}>
-                Samling 09.00 med upprop och avprickning
+                Meeting 09:00 with appeal and check-off
               </li>
               <li style={{ marginTop: 0, marginBottom: 0 }}>
-                Friidrott – höjdhopp eller längdhopp
+                Athletics - high jump or long jump
               </li>
             </ul>
             <h4>Förmiddag:</h4>
             <ul>
-              <li style={{ marginTop: 0, marginBottom: 0 }}>Mellanmål</li>
+              <li style={{ marginTop: 0, marginBottom: 0 }}>Snack</li>
               <li style={{ marginTop: 0, marginBottom: 0 }}>
-                Friidrott – höjdhopp eller längdhopp
+                Athletics - high jump or long jump
               </li>
               <li style={{ marginTop: 0, marginBottom: 0 }}>Lunch</li>
               <li style={{ marginTop: 0, marginBottom: 0 }}>
-                Rast – fri lek ca 30minuter - 1 timme
+                Rest - free play about 30 minutes - 1 hour
               </li>
             </ul>
-            <h4>Eftermiddag:</h4>
+            <h4>Afternoon:</h4>
             <ul>
               <li style={{ marginTop: 0, marginBottom: 0 }}>
-                Lek tillsammans med flera grupper, tex leken ”Flaggan”
+                Play together with several groups, such as the game "Catch the
+                flag”
               </li>
-              <li style={{ marginTop: 0, marginBottom: 0 }}>Mellanmål</li>
+              <li style={{ marginTop: 0, marginBottom: 0 }}>Snack</li>
               <li style={{ marginTop: 0, marginBottom: 0 }}>
-                Stafett med alla barn tillsammans
+                Relay with all children together
               </li>
               <li style={{ marginTop: 0, marginBottom: 0 }}>
-                Avslutning, dags att gå hem
+                Closing, time to go home
               </li>
             </ul>
           </MainText>

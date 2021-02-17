@@ -9,32 +9,9 @@ import MainText from "../../components/MainText";
 import Ingar from "../../components/Ingar";
 import Container from "../../components/Container";
 
-const customStyles = {
-  content: {
-    top: "50%",
-    left: "50%",
-    right: "auto",
-    bottom: "auto",
-    marginRight: "-50%",
-    transform: "translate(-50%, -50%)",
-    background: "#111",
-    color: "#fff",
-    padding: "2rem",
-  },
-};
-
 export default function Källbrink() {
-  var subtitle;
-  const [modalIsOpen, setIsOpen] = useState(false);
-  function openModal() {
-    setIsOpen(true);
-  }
-  function closeModal() {
-    setIsOpen(false);
-  }
-
   return (
-    <Layout nav="English">
+    <Layout en={true}>
       <Head>
         <title>Visättra</title>
       </Head>
@@ -44,7 +21,7 @@ export default function Källbrink() {
           <a
             href="#anmal"
             className="flex-none w-full px-10 py-4 text-center bg-green-600 rounded-lg md:w-64 md:flex-none hover:bg-green-700 text-gray-50">
-            Anmälan
+            Sign up
           </a>
         </div>
         <main>
@@ -57,7 +34,7 @@ export default function Källbrink() {
               Visättra sportcenter
             </a>
             <h2>HAIS friidrottsskola</h2>
-            <h3>Ungdomar födda 2008-2015</h3>
+            <h3>Kids born 2008-2015</h3>
             <p>
               Friidrottsskolan är ett läger på dagtid för barn och ungdomar
               födda år 2008-2015. Under veckorna 25, 26 och 33 i sommar får
@@ -65,46 +42,47 @@ export default function Källbrink() {
               höjdhopp, 60m och kulstötning.
             </p>
             <p>
-              Huddinge AIS Friidrottsskola i Visättra är gratis för alla barn som
-              bor i Visättra och Flemingsberg. Detta har gjorts möjligt med ett stort stöd från Huge
-              bostäder och Huddinge kommun.
+              Huddinge AIS Friidrottsskola i Visättra är gratis för alla barn
+              som bor i Visättra och Flemingsberg. Detta har gjorts möjligt med
+              ett stort stöd från Huge bostäder och Huddinge kommun.
             </p>
-            <Ingar />
-            <h2>Exempel på hur en dag kan se ut:</h2>
-            <h4>Morgon:</h4>
+            <Ingar en={true} />
+            <h2>Example of one day at Friidrottsskolan:</h2>
+            <h4>Morning:</h4>
             <ul>
               <li style={{ marginTop: 0, marginBottom: 0 }}>
-                Samling 09.00 med upprop och avprickning
+                Meeting 09:00 with appeal and check-off
               </li>
               <li style={{ marginTop: 0, marginBottom: 0 }}>
-                Friidrott – höjdhopp eller längdhopp
+                Athletics - high jump or long jump
               </li>
             </ul>
             <h4>Förmiddag:</h4>
             <ul>
-              <li style={{ marginTop: 0, marginBottom: 0 }}>Mellanmål</li>
+              <li style={{ marginTop: 0, marginBottom: 0 }}>Snack</li>
               <li style={{ marginTop: 0, marginBottom: 0 }}>
-                Friidrott – höjdhopp eller längdhopp
+                Athletics - high jump or long jump
               </li>
               <li style={{ marginTop: 0, marginBottom: 0 }}>Lunch</li>
               <li style={{ marginTop: 0, marginBottom: 0 }}>
-                Rast – fri lek ca 30minuter - 1 timme
+                Rest - free play about 30 minutes - 1 hour
               </li>
             </ul>
-            <h4>Eftermiddag:</h4>
+            <h4>Afternoon:</h4>
             <ul>
               <li style={{ marginTop: 0, marginBottom: 0 }}>
-                Lek tillsammans med flera grupper, tex leken ”Flaggan”
+                Play together with several groups, such as the game "Catch the
+                flag”
               </li>
-              <li style={{ marginTop: 0, marginBottom: 0 }}>Mellanmål</li>
+              <li style={{ marginTop: 0, marginBottom: 0 }}>Snack</li>
               <li style={{ marginTop: 0, marginBottom: 0 }}>
-                Stafett med alla barn tillsammans
+                Relay with all children together
               </li>
               <li style={{ marginTop: 0, marginBottom: 0 }}>
-                Avslutning, dags att gå hem
+                Closing, time to go home
               </li>
             </ul>
-            <AnmalRuta />
+            <AnmalRuta en={true} />
           </MainText>
         </main>
       </Container>

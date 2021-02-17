@@ -77,9 +77,9 @@ export default function tider() {
             </p>
             <p>Efteranmälan kan göras i mån av plats och kostar då extra.</p>
             <Link href="/sv/priser/">
-              <a>Se priser för barnpassningen HÄR </a>
+              <a className="block text-blue-200 underline">Se priser för barnpassningen HÄR </a>
             </Link>
-            <hr className="border-b-2 border-black" />
+            <hr className="border-b-2 border-white" />
 
             <h3>Visättra</h3>
             <table>
@@ -113,7 +113,7 @@ export default function tider() {
                 </tr>
               </tbody>
             </table>
-            <hr className="border-b-2 border-black" />
+            <hr className="border-b-2 border-white" />
 
             <h3>Vårby</h3>
             <table>

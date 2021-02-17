@@ -10,10 +10,10 @@ export default function tider() {
   return (
     <Layout en={true}>
       <Head>
-        <title>Tider</title>
+        <title>Schedule</title>
       </Head>
       <Container>
-        <Title title="Tider" />
+        <Title title="Schedule" />
         <main>
           <MainText>
             <h3>Källbrink</h3>
@@ -77,10 +77,10 @@ export default function tider() {
               then it costs 450kr.
             </p>
             <p>Efteranmälan kan göras i mån av plats och kostar då extra.</p>
-            <Link href="/sv/priser/">
-              <a>See pricing for childcare here</a>
+            <Link href="/en/pricing/">
+              <a className="block text-blue-200 underline" >See pricing for childcare here.</a>
             </Link>
-            <hr className="border-b-2 border-black" />
+            <hr className="border-b-2 border-white" />
 
             <h3>Visättra</h3>
             <table>
@@ -114,7 +114,7 @@ export default function tider() {
                 </tr>
               </tbody>
             </table>
-            <hr className="border-b-2 border-black" />
+            <hr className="border-b-2 border-white" />
 
             <h3>Vårby</h3>
             <table>

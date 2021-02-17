@@ -37,9 +37,9 @@ export default function Kallbrink() {
             <p>
               Friidrottsskolan at Källbrink is arranged week 25, 26, 27, 32 and
               33, the days are between 09.30-15.00. There is optional
-              "childcare" see info below.{" "}
+              "childcare" see info at {" "}
               <Link href="/en/pricing">
-                <a className="text-blue-200 underline">Priser</a>
+                <a className="text-blue-200 underline">Pricing</a>
               </Link>
               .
             </p>

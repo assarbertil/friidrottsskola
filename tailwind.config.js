@@ -14,7 +14,7 @@ module.exports = {
         sans: ["Inter", ...fontFamily.sans],
       },
       typography: theme => ({
-        DEFAULT: {
+        lg: {
           css: {
             color: "white",
             td: {
@@ -23,6 +23,9 @@ module.exports = {
               paddingLeft: "0",
               paddingBottom: "0",
             },
+            h2: {
+              marginBottom: "0"
+            }
           },
         },
       }),

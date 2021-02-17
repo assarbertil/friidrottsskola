@@ -73,10 +73,9 @@ export default function tider() {
             </p>
             <p>
               NOTE: If you don’t choose childcare as addition you aren't allowed
-              to leave your child before kl.09:30. You can do a late sign up but
-              then it costs 450kr.
+              to leave your child before kl.09:30. 
             </p>
-            <p>Efteranmälan kan göras i mån av plats och kostar då extra.</p>
+            <p>Late sign up for childcare is subject to availability and costs 450kr.</p>
             <Link href="/en/pricing/">
               <a className="block text-blue-200 underline" >See pricing for childcare here.</a>
             </Link>

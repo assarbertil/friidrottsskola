@@ -10,10 +10,10 @@ export default function tider() {
   return (
     <Layout en={true}>
       <Head>
-        <title>Tider</title>
+        <title>Schedule</title>
       </Head>
       <Container>
-        <Title title="Tider" />
+        <Title title="Schedule" />
         <main>
           <MainText>
             <h3>Källbrink</h3>
@@ -73,14 +73,13 @@ export default function tider() {
             </p>
             <p>
               NOTE: If you don’t choose childcare as addition you aren't allowed
-              to leave your child before kl.09:30. You can do a late sign up but
-              then it costs 450kr.
+              to leave your child before kl.09:30. 
             </p>
-            <p>Efteranmälan kan göras i mån av plats och kostar då extra.</p>
-            <Link href="/sv/priser/">
-              <a>See pricing for childcare here</a>
+            <p>Late sign up for childcare is subject to availability and costs 450kr.</p>
+            <Link href="/en/pricing/">
+              <a className="block text-blue-200 underline" >See pricing for childcare here.</a>
             </Link>
-            <hr className="border-b-2 border-black" />
+            <hr className="border-b-2 border-white" />
 
             <h3>Visättra</h3>
             <table>
@@ -114,7 +113,7 @@ export default function tider() {
                 </tr>
               </tbody>
             </table>
-            <hr className="border-b-2 border-black" />
+            <hr className="border-b-2 border-white" />
 
             <h3>Vårby</h3>
             <table>

@@ -56,9 +56,6 @@ export default function Källbrink() {
               <li style={{ marginTop: 0, marginBottom: 0 }}>
                 Athletics - high jump or long jump
               </li>
-            </ul>
-            <h4>Förmiddag:</h4>
-            <ul>
               <li style={{ marginTop: 0, marginBottom: 0 }}>Snack</li>
               <li style={{ marginTop: 0, marginBottom: 0 }}>
                 Athletics - high jump or long jump

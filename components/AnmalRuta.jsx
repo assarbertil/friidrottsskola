@@ -4,7 +4,7 @@ export default function AnmalRuta(props) {
       {props.en ? (
         <div id="anmal" className="shadow-xl bg-semitransparent rounded-xl">
           <div className="p-1 m-2 sm:p-8 sm:m-16">
-            <h3 className="text-center">Anmälan kan göras på två sätt</h3>
+            <h3 className="text-center">You can sign up in two ways</h3>
             <ol className="mx-6 my-0 list-decimal">
               <li>
                 By filling in the sign-up paper your child has received at

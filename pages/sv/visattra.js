@@ -24,15 +24,6 @@ const customStyles = {
 };
 
 export default function Källbrink() {
-  var subtitle;
-  const [modalIsOpen, setIsOpen] = useState(false);
-  function openModal() {
-    setIsOpen(true);
-  }
-  function closeModal() {
-    setIsOpen(false);
-  }
-
   return (
     <Layout en={false}>
       <Head>

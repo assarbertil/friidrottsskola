@@ -36,15 +36,15 @@ export default function Källbrink() {
             <h2>HAIS friidrottsskola</h2>
             <h3>Kids born 2008-2015</h3>
             <p>
-              Friidrottsskolan är ett läger på dagtid för barn och ungdomar
-              födda år 2008-2015. Under veckorna 25, 26 och 33 i sommar får
-              barnen prova på friidrottens olika grenar, till exempel längdhopp,
-              höjdhopp, 60m och kulstötning.
+              Friidrottsskolan is a day camp for children and youths born in
+              2007-2015. During weeks 25, 26 and 33 this summer, the children
+              get to try out the different branches of track and field, such as
+              long jump, high jump, 60m and shot put.
             </p>
             <p>
-              Huddinge AIS Friidrottsskola i Visättra är gratis för alla barn
-              som bor i Visättra och Flemingsberg. Detta har gjorts möjligt med
-              ett stort stöd från Huge bostäder och Huddinge kommun.
+              Huddinge AIS Friidrottsskola in Visättra is free for all children
+              living in Visättra and Flemingsberg.This has been made possible
+              with great support from Huge bostäder and Huddinge Kommun.
             </p>
             <Ingar en={true} />
             <h2>Example of one day at Friidrottsskolan:</h2>

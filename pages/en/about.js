@@ -20,7 +20,7 @@ export default function om() {
             <p>
               Friidrottsskolan is a day camp for children and youths born in
               2008-2015. During a week, the participants get a unique chance to
-              try out the different branches of track en field under the
+              try out the different branches of track and field under the
               guidance of our committed leaders. In addition to track and field,
               we will be on several forest adventures. We are also careful to
               make room for community and to create new friendships in the
@@ -38,10 +38,7 @@ export default function om() {
               Källbrink. The price, as well as everything that is included,
               remains the same, but the daily schedule will be more like a
               training camp where we focus on the branches of track and field on
-              a deeper, and more individual, level.Participation in this
-              supplement is NOT performance or performance based. Our leaders
-              are there to help each individual develop, regardless of
-              achievement level.
+              a deeper, and more individual, level. 
             </p>
             <p>
               Participation is not performance-based. Our leaders are there to
@@ -65,7 +62,7 @@ export default function om() {
               excited participants with us at Huddinge AIS Friidrottsskola.
             </p>
             <p style={{ marginTop: 0 }}>
-              Some of last year´s successful adjkustments:
+              Some of last year´s successful adjustments:
               <ul
                 className="ml-4 list-disc"
                 style={{ marginTop: 0, marginLeft: 20 }}>

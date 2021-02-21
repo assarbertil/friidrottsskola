@@ -73,6 +73,13 @@ export default function Kallbrink() {
               Participation is not performance-based. Our leaders are there to
               help every person develop, no matter their skill level.
             </p>
+            <h3>Sign up to HAIS friidrottsvecka </h3>
+            <p>
+              Signing up to HAIS friidrottsveckor is done in the same way as for 
+              the regular "Friidrottsskola", through the web form. A few weeks before camp start 
+              we will contact enrolled clubmembers born 2008-1010 asking if they want to attend 
+              the regular Friidrottsskola or "HAIS Friidrottsvecka". 
+            </p>
             <p>
               Questions are welcome at
               <a

@@ -94,6 +94,13 @@ export default function Kallbrink() {
               prestationsbaserat. Våra ledare är där för att hjälpa varje
               individ att utvecklas, oavsett prestationsnivå.
             </p>
+            <h3>Anmälan till HAIS friidrottsvecka </h3>
+            <p>
+              För att anmäla sig till HAIS friidrottsveckor gör du en anmälan till 
+              den "vanliga friidrottsskolan" via hemsidan. Några veckor innan start 
+              kontaktar vi alla anmälda medlemmar födda år 2008–2010 med en förfrågan 
+              om man önskar gå vanliga upplägget eller "HAIS Friidrottsvecka". 
+            </p>
             <p>
               Frågor tas gärna emot på 
               <a

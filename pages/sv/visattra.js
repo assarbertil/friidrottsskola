@@ -51,7 +51,7 @@ export default function Källbrink() {
             <h3>Ungdomar födda 2008-2015</h3>
             <p>
               Friidrottsskolan är ett läger på dagtid för barn och ungdomar
-              födda år 2008-2015. Under veckorna 25, 26 och 33 i sommar får
+              födda år 2008-2015. Under veckorna 25, 26 och 32 i sommar får
               barnen prova på friidrottens olika grenar, till exempel längdhopp,
               höjdhopp, 60m och kulstötning.
             </p>

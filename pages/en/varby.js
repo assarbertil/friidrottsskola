@@ -31,7 +31,7 @@ export default function Källbrink() {
             <h3>Kids born 2008-2015</h3>
             <p>
               Friidrottsskolan is a day camp for children and youths born in
-              2007-2015. During weeks 25, 26 and 33 this summer, the children
+              2007-2015. During weeks 26, 27 and 32 this summer, the children
               get to try out the different branches of track and field, such as
               long jump, high jump, 60m and shot put.
             </p>

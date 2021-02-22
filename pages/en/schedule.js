@@ -47,7 +47,7 @@ export default function tider() {
                   </td>
                 </tr>
                 <tr>
-                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Week 32</td>
+                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Week 31</td>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>
                     Monday- Friday
                   </td>
@@ -56,7 +56,7 @@ export default function tider() {
                   </td>
                 </tr>
                 <tr>
-                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Week 33</td>
+                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Week 32</td>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>
                     Monday- Friday
                   </td>
@@ -103,7 +103,7 @@ export default function tider() {
                   </td>
                 </tr>
                 <tr>
-                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Week 33</td>
+                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Week 32</td>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>
                     Monday- Friday
                   </td>
@@ -137,7 +137,7 @@ export default function tider() {
                   </td>
                 </tr>
                 <tr>
-                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Week 33</td>
+                  <td style={{ paddingTop: 0, paddingBottom: 0 }}>Week 32</td>
                   <td style={{ paddingTop: 0, paddingBottom: 0 }}>
                     Monday- Friday
                   </td>

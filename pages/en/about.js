@@ -31,7 +31,7 @@ export default function om() {
             <h2 style={{ marginBottom: 0 }}>Friidrottsveckor</h2>
             <h3>Kids born 2008-2010</h3>
             <p>
-              During all weeks, 25, 26, 27, 32 and 33, this year we will offer
+              During all weeks, 25, 26, 27, 31 and 32, this year we will offer
               young people who train track and field in HAIS (or another
               athletics association) and are born in 2008-2010 an opportunity to
               sign up for a new concept that we call HAIS Friidrottsvecka at
@@ -43,6 +43,13 @@ export default function om() {
             <p>
               Participation is not performance-based. Our leaders are there to
               help every person develop, no matter their skill level.
+            </p>
+            <h3>Sign up to HAIS friidrottsvecka </h3>
+            <p>
+              Signing up to HAIS friidrottsveckor is done in the same way as for 
+              the regular "Friidrottsskola", through the web form. A few weeks before camp start 
+              we will contact enrolled club members born 2008-1010 asking if they want to attend 
+              the regular Friidrottsskola or "HAIS Friidrottsvecka". 
             </p>
             <h2 style={{ marginBottom: 0 }}>Covid-19</h2>
             <p style={{ marginTop: 0 }}>

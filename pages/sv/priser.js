@@ -33,11 +33,11 @@ export default function priser() {
                   <td style={{ padding: 0 }}>1445 kr</td>
                 </tr>
                 <tr>
-                  <td style={{ padding: 0 }}>Vecka 32 (mån-fre):  </td>
+                  <td style={{ padding: 0 }}>Vecka 31 (mån-fre):  </td>
                   <td style={{ padding: 0 }}>1445 kr</td>
                 </tr>
                 <tr>
-                  <td style={{ padding: 0 }}>Vecka 33 (mån-fre):  </td>
+                  <td style={{ padding: 0 }}>Vecka 32 (mån-fre):  </td>
                   <td style={{ padding: 0 }}>1445 kr</td>
                 </tr>
               </tbody>
@@ -55,7 +55,7 @@ export default function priser() {
             <h3>
               Huge Bostäder erbjuder sina hyresgäster en generös rabatt för
               veckorna&nbsp;
-              <span className="text-red-600">25, 26 och 33</span> och som boende
+              <span className="text-red-600">25, 26 och 32</span> och som boende
               betalar du endast:
             </h3>
             <table>
@@ -69,7 +69,7 @@ export default function priser() {
                   <td style={{ padding: 0 }}> 685 kr</td>
                 </tr>
                 <tr>
-                  <td style={{ padding: 0 }}>Vecka 33:  </td>
+                  <td style={{ padding: 0 }}>Vecka 32:  </td>
                   <td style={{ padding: 0 }}>685 kr</td>
                 </tr>
                 <tr>
@@ -81,7 +81,7 @@ export default function priser() {
             <hr className="border-b-2 border-black" />
 
             <h2>Visättra</h2>
-            <p>Alla veckor (25, 26 och 33): 0kr</p>
+            <p>Alla veckor (25, 26 och 32): 0kr</p>
             <p>
               Tack vare Huddinge kommun och vår generösa samarbetspartner Huge
               kan vi erbjuda friidrottsskolan gratis för alla barn och ungdomar
@@ -111,14 +111,14 @@ export default function priser() {
                   <td style={{ padding: 0 }}>1045 kr</td>
                 </tr>
                 <tr>
-                  <td style={{ padding: 0 }}>Vecka 33 (mån-fre):</td>
+                  <td style={{ padding: 0 }}>Vecka 32 (mån-fre):</td>
                   <td style={{ padding: 0 }}>1045 kr</td>
                 </tr>
               </tbody>
             </table>
             <hr className="border-b-2 border-black" />
             <h2>Vårby</h2>
-            <p>Alla veckor (25, 26 och 33): 0kr</p>
+            <p>Alla veckor (26, 27 och 32): 0kr</p>
             <p>
               Tack vare Huddinge kommun och vår generösa samarbetspartner Huge
               kan vi erbjuda friidrottsskolan gratis för alla barn och ungdomar
@@ -148,7 +148,7 @@ export default function priser() {
                   <td style={{ padding: 0 }}>1045 kr</td>
                 </tr>
                 <tr>
-                  <td style={{ padding: 0 }}>Vecka 33 (mån-fre):</td>
+                  <td style={{ padding: 0 }}>Vecka 32 (mån-fre):</td>
                   <td style={{ padding: 0 }}>1045 kr</td>
                 </tr>
               </tbody>

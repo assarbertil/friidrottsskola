@@ -33,11 +33,11 @@ export default function priser() {
                   <td style={{ padding: 0 }}>1445 kr</td>
                 </tr>
                 <tr>
-                  <td style={{ padding: 0 }}>Week 32 (mon-fri):  </td>
+                  <td style={{ padding: 0 }}>Week 31 (mon-fri):  </td>
                   <td style={{ padding: 0 }}>1445 kr</td>
                 </tr>
                 <tr>
-                  <td style={{ padding: 0 }}>Week 33 (mon-fri):  </td>
+                  <td style={{ padding: 0 }}>Week 32 (mon-fri):  </td>
                   <td style={{ padding: 0 }}>1445 kr</td>
                 </tr>
               </tbody>
@@ -54,7 +54,7 @@ export default function priser() {
             </p>
             <h3>
               Huge Bostäder offers a generous discount for their tenants week{" "}
-              <span className="text-red-600">25, 26 och 33</span> for you who
+              <span className="text-red-600">25, 26 och 32</span> for you who
               live in a Huge Bosäter you only pay:
             </h3>
             <table>
@@ -68,7 +68,7 @@ export default function priser() {
                   <td style={{ padding: 0 }}> 685 kr</td>
                 </tr>
                 <tr>
-                  <td style={{ padding: 0 }}>Week 33:  </td>
+                  <td style={{ padding: 0 }}>Week 32:  </td>
                   <td style={{ padding: 0 }}>685 kr</td>
                 </tr>
                 <tr>
@@ -80,7 +80,7 @@ export default function priser() {
             <hr className="border-b-2 border-black" />
 
             <h2>Visättra</h2>
-            <p>All weeks (25, 26 och 33): 0kr</p>
+            <p>All weeks (25, 26 och 32): 0kr</p>
             <p>
               Huddinge AIS Friidrottsskola in Visättra is free for all children
               living in Visättra/Flemingsberg. This has been made possible with
@@ -110,14 +110,14 @@ export default function priser() {
                   <td style={{ padding: 0 }}>1045 kr</td>
                 </tr>
                 <tr>
-                  <td style={{ padding: 0 }}>Week 33:</td>
+                  <td style={{ padding: 0 }}>Week 32:</td>
                   <td style={{ padding: 0 }}>1045 kr</td>
                 </tr>
               </tbody>
             </table>
             <hr className="border-b-2 border-black" />
             <h2>Vårby</h2>
-            <p>All weeks (25, 26 och 33): 0kr</p>
+            <p>All weeks (26, 27 och 32): 0kr</p>
             <p>
               Huddinge AIS Friidrottsskola in Vårby is free for all children
               living in Vårby. This has been made possible with great support
@@ -147,7 +147,7 @@ export default function priser() {
                   <td style={{ padding: 0 }}>1045 kr</td>
                 </tr>
                 <tr>
-                  <td style={{ padding: 0 }}>Week 33:</td>
+                  <td style={{ padding: 0 }}>Week 32:</td>
                   <td style={{ padding: 0 }}>1045 kr</td>
                 </tr>
               </tbody>

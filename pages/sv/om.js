@@ -31,7 +31,7 @@ export default function om() {
             <h2 style={{ marginBottom: 0 }}>Friidrottsveckor</h2>
             <h3>Ungdomar födda 2008-2010</h3>
             <p>
-              Under samtliga veckor, 25, 26, 27, 32 och 33, kommer vi i år att
+              Under samtliga veckor, 25, 26, 27, 31 och 32, kommer vi i år att
               erbjuda ungdomar som tränar friidrott i HAIS (eller annan
               friidrottsförening) och är födda 2008-2010 en möjlighet att anmäla
               sig till ett nytt koncept som vi kallar HAIS Friidrottsvecka.

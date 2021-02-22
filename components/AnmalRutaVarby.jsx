@@ -31,7 +31,7 @@ export default function AnmalRutaVarby(props) {
                   If your child has any special needs, we need to know about{" "}
                 </li>
                 <li>
-                  Which week you want to attend (25, 26 and 33 available, you
+                  Which week you want to attend (26, 27 and 32 available, you
                   can choose 1-3 weeks)
                 </li>
               </ul>
@@ -75,7 +75,7 @@ export default function AnmalRutaVarby(props) {
                   Om barnet har några speciella behov vi ska ta hänsyn till
                 </li>
                 <li>
-                  Vilka veckor barnet ska gå (26, 27 och 33 finns, man kan välja
+                  Vilka veckor barnet ska gå (26, 27 och 32 finns, man kan välja
                   1-3st)
                 </li>
               </ul>

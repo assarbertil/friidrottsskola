@@ -58,8 +58,8 @@ export default function Kallbrink() {
             <h2>HAIS friidrottsskola</h2>
             <h3>Ungdomar födda 2008-2015</h3>
             <p>
-              Friidrottsskolan på Källbrink arrangeras vecka 25, 26, 27, 32 och
-              33, dagarna är mellan klockan 09.30-15.00. Det finns möjlighet
+              Friidrottsskolan på Källbrink arrangeras vecka 25, 26, 27, 31 och
+              32, dagarna är mellan klockan 09.30-15.00. Det finns möjlighet
               till tillval ”barnpassning” se info på{" "}
               <Link href="/sv/priser">
                 <a className="text-blue-200 underline">Priser</a>
@@ -81,7 +81,7 @@ export default function Kallbrink() {
             <h2>Friidrottsveckor</h2>
             <h3>Ungdomar födda 2008-2010</h3>
             <p>
-              Under samtliga veckor, 25, 26, 27, 32 och 33, kommer vi i år att
+              Under samtliga veckor, 25, 26, 27, 31 och 32, kommer vi i år att
               erbjuda ungdomar som tränar friidrott i HAIS (eller annan
               friidrottsförening) och är födda 2008-2010 en möjlighet att anmäla
               sig till ett nytt koncept som vi kallar HAIS Friidrottsvecka.

@@ -104,7 +104,7 @@ export default function Kallbrink() {
             <p>
               Frågor tas gärna emot på 
               <a
-                className="block text-blue-200 underline"
+                
                 href="mailto:friidrottsskolan@huddingeais.se">
                 friidrottsskolan@huddingeais.se
               </a>

@@ -77,7 +77,7 @@ export default function tider() {
             </p>
             <p>Late sign up for childcare is subject to availability and costs 450kr.</p>
             <Link href="/en/pricing/">
-              <a className="block text-blue-200 underline" >See pricing for childcare here.</a>
+              <a  >See pricing for childcare here.</a>
             </Link>
             <hr className="border-b-2 border-white" />
 

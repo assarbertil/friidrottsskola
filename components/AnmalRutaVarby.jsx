@@ -11,10 +11,8 @@ export default function AnmalRutaVarby(props) {
                 school and hand it in to your mentor.
               </li>
               <li>
-                By sending an email to
-                <a
-                  className="block text-blue-200 underline"
-                  href="mailto:friidrottsskolan@huddingeais.se">
+                By sending an email to&nbsp;
+                <a href="mailto:friidrottsskolan@huddingeais.se">
                   friidrottsskolan@huddingeais.se{" "}
                 </a>
                 and write:

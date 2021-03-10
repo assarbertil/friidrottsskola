@@ -4,6 +4,7 @@ import Head from "next/head";
 import Title from "../../components/Title";
 import MainText from "../../components/MainText";
 import Ingar from "../../components/Ingar";
+import Avboka from "../../components/Avboka";
 
 import Container from "../../components/Container";
 
@@ -90,7 +91,7 @@ export default function priser() {
             <p>
               För att anmäla ett barn{" "}
               <span className="text-red-600"> INTE</span> bor i Visättra
-              kontaktar ni oss på 
+              kontaktar ni oss på&nbsp; 
               <a href="mailto:friidrottsskolan@huddingeais.se">
                 friidrottsskolan@huddingeais.se
               </a>
@@ -127,7 +128,7 @@ export default function priser() {
             <p>
               För att anmäla ett barn som
               <span className="text-red-600"> INTE</span>
-               bor i Vårby kontaktar ni oss på 
+               bor i Vårby kontaktar ni oss på&nbsp;
               <a href="mailto:friidrottsskolan@huddingeais.se">
                 friidrottsskolan@huddingeais.se
               </a>
@@ -156,6 +157,7 @@ export default function priser() {
             <hr className="border-b-2 border-black" />
 
             <Ingar />
+            <Avboka />
           </MainText>
         </main>
       </Container>

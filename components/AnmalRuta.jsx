@@ -11,10 +11,8 @@ export default function AnmalRuta(props) {
                 school and hand it in to your mentor.
               </li>
               <li>
-                By sending an email to
-                <a
-                  className="block text-blue-200 underline"
-                  href="mailto:friidrottsskolan@huddingeais.se">
+                By sending an email to&nbsp;
+                <a href="mailto:friidrottsskolan@huddingeais.se">
                   friidrottsskolan@huddingeais.se{" "}
                 </a>
                 and write:
@@ -49,10 +47,8 @@ export default function AnmalRuta(props) {
                 skolan till sin mentor.
               </li>
               <li>
-                Genom att skicka ett mail till 
-                <a
-                  className="block text-blue-200 underline"
-                  href="mailto:friidrottsskolan@huddingeais.se">
+                Genom att skicka ett mail till&nbsp;
+                <a href="mailto:friidrottsskolan@huddingeais.se">
                   friidrottsskolan@huddingeais.se{" "}
                 </a>
                  och skriva:

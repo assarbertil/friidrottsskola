@@ -40,7 +40,7 @@ export default function Index() {
               {/*               More info in English will be presented here soon, but for more
               information you can contact our camp manager Emelie at
               <a
-                className="block text-blue-200 underline"
+                
                 href="mailto:friidrottsskolan@huddingeais.se">
                 friidrottsskolan@huddingeais.se
               </a> */}

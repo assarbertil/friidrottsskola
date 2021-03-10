@@ -4,6 +4,7 @@ import Head from "next/head";
 import Title from "../../components/Title";
 import MainText from "../../components/MainText";
 import Ingar from "../../components/Ingar";
+import Avboka from "../../components/Avboka";
 
 import Container from "../../components/Container";
 
@@ -89,10 +90,8 @@ export default function priser() {
             <p>
               To sign up a child who does
               <span className="text-red-600"> NOT</span> live in
-              Visättra/Flemingsberg, contact us at
-              <a href="mailto:friidrottsskolan@huddingeais.se">
-                friidrottsskolan@huddingeais.se
-              </a>
+              Visättra/Flemingsberg, contact us at&nbsp;
+              <a href="mailto:friidrottsskolan@huddingeais.se">friidrottsskolan@huddingeais.se</a>
             </p>
             <p>
               Regular prices for those who don't live in Huge bostäder and/or
@@ -126,8 +125,8 @@ export default function priser() {
             <p>
               To sign up a child who does
               <span className="text-red-600"> NOT </span>
-              live in Vårby, contact us at
-              <a href="mailto:friidrottsskolan@huddingeais.se">
+              live in Vårby, contact us at&nbsp;
+              <a href="mailto:friidrottsskolan@huddingeais.se" >
                 friidrottsskolan@huddingeais.se
               </a>
             </p>
@@ -155,6 +154,7 @@ export default function priser() {
             <hr className="border-b-2 border-black" />
 
             <Ingar en={true} />
+            <Avboka en />
           </MainText>
         </main>
       </Container>

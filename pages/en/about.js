@@ -91,7 +91,7 @@ export default function om() {
             <p>
               Questions are welcome at
               <a
-                className="block text-blue-200 underline"
+                
                 href="mailto:friidrottsskolan@huddingeais.se">
                 friidrottsskolan@huddingeais.se{" "}
               </a>
